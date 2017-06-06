@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="MelissaMallon">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Melissa Mallon</title>
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="lib/node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+        <link href="https://fonts.googleapis.com/css?family=Cormorant|Gilda+Display" rel="stylesheet">
+        <link rel="stylesheet" href="app/css/main.css">
+    </head>
+    <body>
+
+        <div ng-include="'partials/navbar.html'"></div>
+
+        <div id="view-div" ng-view></div>
+
+        <div ng-include="'partials/footer.html'"></div>
+
+        <!--third party js-->
+        <script type="text/javascript" src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="lib/node_modules/materialize-css/dist/js/materialize.min.js"></script>
+        <script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
+        <script type="text/javascript" src="lib/node_modules/angular-route/angular-route.min.js"></script>
+        <script type="text/javascript" src="lib/node_modules/angular-animate/angular-animate.min.js"></script>
+        <script type="text/javascript" src="lib/node_modules/angular-touch/angular-touch.min.js"></script>
+
+
+
+        <!-- app.js -->
+        <script type="text/javascript" src="app/app.js"></script>
+
+        <!-- credentials -->
+
+        <!-- factories -->
+
+        <!-- controllers -->
+        <script type="text/javascript" src="app/controllers/HomeCtrl.js"></script>
+        <script type="text/javascript" src="app/controllers/NavbarCtrl.js"></script>
+        <script type="text/javascript" src="app/controllers/PortfolioCtrl.js"></script>
+        <script type="text/javascript" src="app/controllers/PublicationsCtrl.js"></script>
+        <script type="text/javascript" src="app/controllers/ContactMeCtrl.js"></script>
+
+    </body>
+</html>

@@ -20,5 +20,8 @@ app.config(function($routeProvider) {
     }).when("/contact-me", {
         templateUrl: "partials/contact-me.html",
         controller: "ContactMeCtrl"
+    }).when("/curriculumvitae", {
+        templateUrl: "partials/curriculumvitae.html",
+        controller: "CurriculumVitaeCtrl"
     });
 });

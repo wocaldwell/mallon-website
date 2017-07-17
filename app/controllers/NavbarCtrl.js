@@ -6,8 +6,4 @@ app.controller("NavbarCtrl", function($scope, $window, $location){
         $(".button-collapse").sideNav();
     });
 
-    // commuter essentials link click
-    $scope.goToEssentials = function() {
-        $window.location.href = "#!/";
-    };
 });

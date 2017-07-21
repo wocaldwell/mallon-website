@@ -1,7 +1,7 @@
 "use strict";
 
 app.controller("PublicationsCtrl", function($scope, JsonFactory){
-    console.log('is this working?');
+
     // make this link appear "active"
     $("#portfolio-link").removeClass("active");
     $("#publications-link").addClass("active");
@@ -14,7 +14,7 @@ app.controller("PublicationsCtrl", function($scope, JsonFactory){
         $('.parallax').parallax();
     });
 
-    JsonFactory.getJsonData("publications.json")
+    JsonFactory.getJsonData("assets/jsons/publications.json")
     .then(function(returnedData){
         $scope.publications = returnedData;
     });

@@ -17,10 +17,16 @@ app.config(function($routeProvider) {
     .when("/publications", {
         templateUrl: "partials/publications.html",
         controller: "PublicationsCtrl"
-    }).when("/contact-me", {
+    })
+    .when("/presentations", {
+        templateUrl: "partials/presentations.html",
+        controller: "PresentationsCtrl"
+    })
+    .when("/contact-me", {
         templateUrl: "partials/contact-me.html",
         controller: "ContactMeCtrl"
-    }).when("/curriculumvitae", {
+    })
+    .when("/curriculumvitae", {
         templateUrl: "partials/curriculumvitae.html",
         controller: "CurriculumVitaeCtrl"
     });

@@ -13,4 +13,9 @@ app.controller("PresentationsCtrl", function($scope, JsonFactory){
         $('.parallax').parallax();
     });
 
+    JsonFactory.getJsonData("assets/jsons/presentations.json")
+    .then(function(returnedData){
+        $scope.presentations = returnedData;
+    });
+
 });

@@ -15,10 +15,404 @@
                 "Instructional Technology Evaluation Form": "assets/documents/InstructionalTechnologies.docx",
                 "Assessment Reporting Form": "AssessmentReportingForm.docx",
                 "list for finding new ed tech tools": "https://docs.google.com/document/d/1ktVm8oXBOOW6Qor71oMpbdG0rtnZarRaJhJTyh8UZug/edit",
-                "Barriers to Assessment": "https://padlet.com/mnmallon/loex2016"
+                "Barriers to Assessment": "https://padlet.com/mnmallon/loex2016",
+                "Presentation slides": "https://prezi.com/ychko3k9et7l/creating-a-culture-of-authentic-assessment-assessing-student-learning-with-instructional-technologies/"
             },
             "imageUrl": "http://www.loexconference.org/2016/assets/logo2016.png",
             "additional": "Invited pre-conference workshop"
+        },
+        {
+            "title": "Authentic Assessment for Online Learning",
+            "conference": "Kansas State University Institute for Student Learning and Assessment",
+            "location": "Manhattan, KS",
+            "date": "November 2014",
+            "copresenters": ["Megan Mallon"],
+            "materials": {
+                "overview": "http://www.k-state.edu/assessment/institute/past/2014/index.html",
+                "Keynote Presentation": "assets/documents/authentic_assessment-tech_twins.pdf",
+                "Handout/Resources": "assets/documents/authentic_assessment_handout_institute_for_student_learning_assessment_mallon_.pdf",
+                "Keynote video": "https://www.youtube.com/watch?v=m_BCeeWBQJg"
+                },
+            "imageUrl": "http://www.k-state.edu/assessment/images/InstituteSLAMark.jpg",
+            "additional": "Keynote presentation"
+        },
+        {
+            "title": "Show Me, Show Me, Show Me: Performance Based Assessment in Library Instruction",
+            "conference": "LOEX Encore Online Conference",
+            "location": "",
+            "date": "May 2013",
+            "copresenters": [],
+            "materials": {
+                "Slides": "assets/documents/LOEX+Presentation+Mallon.pdf",
+                "LOEX Encore Slides (presented virtually on 29 May 2013)": "assets/documents/LOEXEncoreMallon.pdf",
+                "LOEX Encore Recording": "https://vimeo.com/79210108",
+                "Handout": "assets/documents/LOEXHandoutMallon.pdf",
+                "RAILS": "http://www.railsontrack.info/default.aspx",
+                "Google Sites": "http://sites.google.com/",
+                "Padlet": "https://padlet.com/",
+                "Bubbl.us": "https://bubbl.us/",
+                "Text 2 Mind Map": "http://www.text2mindmap.com/",
+                "MindMeister": "https://www.mindmeister.com/"
+                },
+            "imageUrl": "https://acrlvislitstandards.files.wordpress.com/2014/06/loex2013.jpg",
+            "additional": ""
+        },
+        {
+            "title": "Info on the Go: Using QR Codes for Library Instruction",
+            "conference": "Handheld Librarian V",
+            "location": "Online Conference",
+            "date": "July 2011",
+            "copresenters": [],
+            "materials": {
+                "slides": "assets/documents/MallonQRHandheld.pdf"
+            },
+            "imageUrl": "http://www.learningtimes.com/wp-content/uploads/2010/07/news-handheld-librarian.jpg",
+            "additional": ""
+        }
+    ],
+    "Professional Courses & Workshops Taught": [
+        {
+            "title": "Assessing Student Learning with Instructional Technologies",
+            "conference": "American Library Association",
+            "location": "Asynchronous, 4-week course for K12, special, and higher ed librarians in Moodle LMS",
+            "date": "June 2015; May 2016; March 2017",
+            "copresenters": [],
+            "materials": {
+                "more info.": "https://www.alastore.ala.org/detail.aspx?ID=11436"
+                },
+            "imageUrl": "https://www.alastore.ala.org/images/Mallon_300.jpg",
+            "additional": ""
+        },
+        {
+            "title": "Beyond Worksheets: Using Instructional Technologies for Authentic Assessment of Student Learning",
+            "conference": "ACRL eLearning Workshop",
+            "location": "",
+            "date": "April 2015; October 2015; June 2017",
+            "copresenters": [],
+            "materials": {
+                "Webcast Information": "http://www.ala.org/acrl/beyondworksheetswebcast",
+                "Presentation Slides": "https://www.dropbox.com/s/x603xeooqpembei/ACRL_eLearning_Mallon2017.pptx?dl=0",
+                "Instructional Technology Evaluation Template": "assets/documents/ACRL_Mallon_TechEvalForm.docx",
+                "Handout of Technology Tools": "assets/documents/ACRL_ELearning_Mallon_Handout2017.pdf",
+                "Finding New Ed Tech Tools": "https://docs.google.com/document/d/1ktVm8oXBOOW6Qor71oMpbdG0rtnZarRaJhJTyh8UZug/edit",
+                "Rubric for video production/Bloom's taxonomy": "assets/documents/storyboard rubric.pdf",
+                "Article on using formative assessment rubrics": "assets/documents/formative_assessment_rubrics_and_observation_tools_document.pdf",
+                "A long list of rubric resources from Kathy Schrock": "http://www.schrockguide.net/assessment-and-rubrics.html",
+                "Classroom learning activity rubric": "https://docs.google.com/document/d/1YyV94ZzXqwxLbVMbZeVJZh7QFYotPAUP9UjML5CbbVo/pub"
+                },
+            "imageUrl": "http://www.acrl.ala.org/acrlinsider/wp-content/uploads/acrl_twitter.jpg",
+            "additional": ""
+        },
+        {
+            "title": "Formative Assessment Strategies for Library Instruction",
+            "conference": "EasyBib Professional Development Series",
+            "location": "",
+            "date": "December 2014",
+            "copresenters": [],
+            "materials": {
+                    "Presentation Slides": "https://www.slideshare.net/MelissaMallon/formative-assessment-strategies-for-library-instruction",
+                    "List of Technology Tools": "assets/documents/Tech_Tools_Form_Assessment.pdf",
+                    "iPedagogy Wheel": "assets/documents/iPedagogyWheel.pdf",
+                    "What are your favorite assessment techniques?": "https://padlet.com/mnmallon/easybib"
+                },
+            "imageUrl": "http://enterthemeeting.com/photo/show?id=129892&sh=cadb0796cc7369229d47cda4a27098ab",
+            "additional": ""
+        },
+        {
+            "title": "Building a Successful Workshop Series From Scratch.",
+            "conference": "RUSA eLearning Workshop",
+            "location": "",
+            "date": "April 2013",
+            "copresenters": [],
+            "materials": {
+                    "Slides": "assets/documents/RUSA+Slides+Mallon.pdf",
+                    "Workshop Template Handout": "assets/documents/Workshop+Template+Handout+Mallon.doc"
+                },
+            "imageUrl": "http://www.ala.org/news/sites/ala.org.news/files/news/pressreleaseimages/RUSA_Logo_Navy_Div_500x206_10.png",
+            "additional": ""
+        }
+    ],
+    "Selected Papers, Presentations, Panels, & Posters": [
+        {
+            "Digital & information literacies": [
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                }
+            ]
+        },
+        {
+            "Instructional design, teaching, learning, and assessment": [
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                }
+            ]
+        },
+        {
+            "Educational technologies, online learning, & student collaboration": [
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                }
+            ]
+        },
+        {
+            "Academic library strategic planning and organization": [
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                },
+                {
+                    "title": "",
+                    "conference": "",
+                    "location": "",
+                    "date": "",
+                    "copresenters": [],
+                    "materials": {
+
+                        },
+                    "imageUrl": "",
+                    "additional": ""
+                }
+            ]
         }
     ]
+
 }

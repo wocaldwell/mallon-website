@@ -7,19 +7,26 @@
     </div>
 </div>
 <div class="section white">
-    <div class="row">
-        <div class="col s12 m6 l4">
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="http://www.loexconference.org/2016/assets/logo2016.png">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Creating a Culture of Authentic Assessment: Assessing Student Learning with Instructional Technologies<i class="material-icons right">more_vert</i></span>
-                    <p>LOEX Annual Conference, Pittsburgh, PA (05 May 2016)</p>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Links & Downloads<i class="material-icons right">close</i></span>
-                    <p><a href="assets/documents/LOEX_Workshop_Agenda.pdf">agenda</a></p>
+    <div class="container" ng-repeat="(type, presentationList) in presentations">
+        <div class="row">
+            <h4>{{type}}</h4>
+            <div ng-repeat="presentation in presentationList">
+                <div class="col s12 m6 l4">
+                    <div class="card medium">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="{{presentation.imageUrl}}">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">{{presentation.title}}<i class="material-icons right">more_vert</i></span>
+                            <p>{{presentation.conference}} {{presentation.location}} {{presentation.date}}</p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">{{presentation.title}}<i class="material-icons right">close</i></span>
+                            <div ng-repeat="(link, address) in presentation.materials">
+                                <p><a href="{{address}}" target="_blank">{{link}}</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -128,291 +128,274 @@
                     "Slides": "assets/documents/RUSA+Slides+Mallon.pdf",
                     "Workshop Template Handout": "assets/documents/Workshop+Template+Handout+Mallon.doc"
                 },
-            "imageUrl": "http://www.ala.org/news/sites/ala.org.news/files/news/pressreleaseimages/RUSA_Logo_Navy_Div_500x206_10.png",
+            "imageUrl": "https://i.ytimg.com/vi/xT4_ixI-6zA/hqdefault.jpg",
             "additional": ""
         }
     ],
-    "Selected Papers, Presentations, Panels, & Posters": [
+    "Topics: Digital & information literacies": [
         {
-            "Digital & information literacies": [
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
+            "title": "Traversing the Deep Waters of Institutional Assessment: Three Perspectives of Information Literacy Throughout the Curriculum",
+            "conference": "ACRL National Conference",
+            "location": "Baltimore, MD",
+            "date": "March 2017",
+            "copresenters": ["Sara Whitver","Toni Carter"],
+            "materials": {
+                "slides": "https://docs.google.com/presentation/d/1K-u13bg_i9HDxQoT8tHFwxAJIpWRLQcvuz77gSpGvj4/edit#slide=id.p"
                 },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
-                },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
-                },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
-                },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
-                }
-            ]
+            "imageUrl": "https://conference.acrl.org/wp-content/themes/orbitmedia/images/acrl-conference-logo.svg",
+            "additional": ""
         },
         {
-            "Instructional design, teaching, learning, and assessment": [
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
+            "title": "Let's Give Them SUM-Thing to Talk About: Using Digital Media for Summative Assessment",
+            "conference": "International Society for Exploring Teaching and Learning",
+            "location": "Savannah, GA",
+            "date": "October 2016",
+            "copresenters": ["Megan Mallon"],
+            "materials": {
+                "slides": "https://haikudeck.com/lets-give-them-sum-thing-to-talk-about-education-presentation-b76d18ab50"
                 },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
-                },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
-                },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
-                },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
-                },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
-                },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
-                },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
-                },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
-                }
-            ]
+            "imageUrl": "http://www.isetl.org/wp-content/uploads/2017/01/ISETL-logo.png",
+            "additional": ""
         },
         {
-            "Educational technologies, online learning, & student collaboration": [
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
+            "title": "Discovery Tools:  Where Do We Go From Here?",
+            "conference": "Brick & Click Academic Libraries Symposium",
+            "location": "Maryville, MO",
+            "date": "November 2013",
+            "copresenters": ["Lisa Lapointe"],
+            "materials": {
+                "poster": "assets/documents/MallonPoster.pdf"
                 },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
-                }
-            ]
+            "imageUrl": "http://www.nwmissouri.edu/library/brickandclick/img/bandc_logo.png",
+            "additional": ""
         },
         {
-            "Academic library strategic planning and organization": [
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
+            "title": "Strengthening Students’ Critical Thinking Skills with Research-Focused Assignments",
+            "conference": "Institute for Student Learning and Assessment",
+            "location": "Kansas State University, Manhattan, KS",
+            "date": "October 2012",
+            "copresenters": [],
+            "materials": {
+                "poster": "assets/documents/MallonPoster.pdf"
                 },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
+            "imageUrl": "http://www.k-state.edu/assessment/images/InstituteSLAMark.jpg",
+            "additional": "Poster Session"
+        },
+        {
+            "title": "Extending a Helping Hand: Information Literacy Collaboration for Psychology Majors",
+            "conference": "ACRL National Conference",
+            "location": "Seattle, WA",
+            "date": "March 2009",
+            "copresenters": [],
+            "materials": {
 
-                        },
-                    "imageUrl": "",
-                    "additional": ""
                 },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
+            "imageUrl": "http://farm4.static.flickr.com/3158/2866286434_2eb89aecff_m.jpg",
+            "additional": "Poster Session"
+        }
+    ],
+    "Topics: Instructional design, teaching, learning, and assessment": [
+        {
+            "title": "Anchoring our Practice: The Scholarship of Teaching & Learning",
+            "conference": "ACRL National Conference",
+            "location": "Baltimore, MD",
+            "date": "March 2017",
+            "copresenters": ["Lauren Hays", "Cara Bradley", "Margy MacMillan", "Rhonda Huisman"],
+            "materials": {
+                "materials": "https://drive.google.com/drive/folders/0B74y92QAjDmlc0d4U1NzbWZXenc"
                 },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
-
-                        },
-                    "imageUrl": "",
-                    "additional": ""
+            "imageUrl": "https://conference.acrl.org/wp-content/themes/orbitmedia/images/acrl-conference-logo.svg",
+            "additional": ""
+        },
+        {
+            "title": "Relating to reality: Using applied learning to make authentic connections in the classroom",
+            "conference": "International Society for Exploring Teaching and Learning",
+            "location": "Savannah, GA",
+            "date": "6 October 2015",
+            "copresenters": ["Megan Mallon"],
+            "materials": {
+                "slides": "https://prezi.com/7-1wv3i7kkq2/relating-to-reality-using-applied-learning-to-make-authentic-connections-in-the-classroom/"
                 },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
+            "imageUrl": "http://www.isetl.org/wp-content/uploads/2017/01/ISETL-logo.png",
+            "additional": ""
+        },
+        {
+            "title":"Sustainable Assessment: Using Google Forms for Library Instruction",
+            "conference": "ALA Annual Conference",
+            "location": "San Francisco, CA",
+            "date": "June 2015",
+            "copresenters": ["Shonn Haren"],
+            "materials": {
 
-                        },
-                    "imageUrl": "",
-                    "additional": ""
                 },
-                {
-                    "title": "",
-                    "conference": "",
-                    "location": "",
-                    "date": "",
-                    "copresenters": [],
-                    "materials": {
+            "imageUrl": "http://www.cbcbooks.org/wp-content/uploads/2015/06/ala-annual.png",
+            "additional": "Poster Session"
+        },
+        {
+            "title": "Brewing Up Future Leaders: Supporting Applied Learning Initiatives on Campus",
+            "conference": "LOEX Conference",
+            "location": "Denver, CO",
+            "date": "May 2015",
+            "copresenters": [],
+            "materials": {
+                "Presentation": "https://prezi.com/woebpazhs6k3/brewing-up-future-leaders-supporting-applied-learning-initatives-on-campus/?utm_campaign=share&utm_medium=copy",
+                "Rubric for COMM 430: Communication Research & Inquiry": "assets/documents/COMM+430+Secondary+Research+Rubric.pdf"
+                },
+            "imageUrl": "http://www.loexconference.org/2015/assets/backgroundLogo.png",
+            "additional": ""
+        },
+        {
+            "title": "Promoting Transferable Research Skills: A New Take on English Composition Assessment",
+            "conference": "Association of   College & Research Libraries (ACRL)",
+            "location": "Portland, OR",
+            "date": "March 2015",
+            "copresenters": [],
+            "materials": {
+                "slides": "https://prezi.com/ryar8sy52cyl/promoting-transferable-research-skills-a-new-take-on-english-composition-assessment/",
+                "Paper": "assets/documents/Mallon.pdf",
+                "Lesson Plan & Learning Outcomes": "assets/documents/ENGL102_LessonPlan.pdf",
+                "Student Handout": "assets/documents/ENGL102handout+.docx",
+                "Rubric": "assets/documents/ENGL102LibBlogRubric-1.pdf"
+                },
+            "imageUrl": "https://reellibrarians.files.wordpress.com/2015/03/screen-shot-2015-03-23-at-12-22-47-pm.png?w=350&h=200&crop=1",
+            "additional": ""
+        },
+        {
+            "title": "Preparing Students for the “Real World”: Practical Strategies for Teaching Critical Thinking",
+            "conference": "44th Annual Conference of the International Society for Exploring Teaching   and Learning",
+            "location": "Denver, CO",
+            "date": "October 2014",
+            "copresenters": ["William Vanderburgh"],
+            "materials": {
+                "slides": "https://docs.google.com/presentation/d/1V8xww5Kt84Q41-y1-VNclfATV8_2m1YclzZH97UcVHo/edit#slide=id.p"
+                },
+            "imageUrl": "http://www.isetl.org/wp-content/uploads/2017/01/ISETL-logo.png",
+            "additional": ""
+        },
+        {
+            "title": "Promoting Critical Thinking Through Authentic Learning Activities",
+            "conference": "EasyBib Professional Development Series",
+            "location": "Online",
+            "date": "May 2014",
+            "copresenters": [],
+            "materials": {
+                "slides": "https://www.slideshare.net/MelissaMallon/promoting-critical-thinking-with-authentic"
+                },
+            "imageUrl": "http://enterthemeeting.com/photo/show?id=129892&sh=cadb0796cc7369229d47cda4a27098ab",
+            "additional": ""
+        },
+        {
+            "title": "Authentic Assessments for Critical Thinking:  An Overview of Strategies ",
+            "conference": "Institute for Student Learning and Assessment",
+            "location": "Kansas State University, Manhattan, KS",
+            "date": "November 2013",
+            "copresenters": ["Jason Coleman","Leo Lo"],
+            "materials": {
 
-                        },
-                    "imageUrl": "",
-                    "additional": ""
-                }
-            ]
+                },
+            "imageUrl": "http://www.k-state.edu/assessment/images/InstituteSLAMark.jpg",
+            "additional": ""
+        }
+    ],
+    "Topics: Educational technologies, online learning, & student collaboration": [
+        {
+            "title": "Authentic Assessment for Online Learning",
+            "conference": "Summer Institute on Distance Learning & Instructional Technology",
+            "location": "Overland Park, KS",
+            "date": "July 2014",
+            "copresenters": ["Megan Mallon"],
+            "materials": {
+                "slides": "http://meganmallon.weebly.com/uploads/7/8/6/5/7865309/authentic_assessment-mallon_tech_twins-sidlit.pdf"
+                },
+            "imageUrl": "http://scholarspace.jccc.edu/assets/md5images/f4f00f8dc66301f15db13c3bf1418cda.gif",
+            "additional": ""
+        },
+        {
+            "title": "Create, Consume, Collaborate: Best Practices for Cultivating Digital Citizenship in the Classroom",
+            "conference": "Summer Institute on Distance Learning & Instructional Technology",
+            "location": "Overland Park, KS",
+            "date": "August 2013",
+            "copresenters": ["Megan Mallon"],
+            "materials": {
+                "slides": "https://prezi.com/zkrodfc1lgil/create-consume-collaborate-best-practices-for-cultivating-digital-citizenship-in-the-classroom/?utm_campaign=share&utm_medium=copy",
+                "more resources": "http://meganmallon.weebly.com/uploads/7/8/6/5/7865309/digital_citizenship_resources_sidlit_mallon_tech_twins.pdf"
+                },
+            "imageUrl": "http://scholarspace.jccc.edu/assets/md5images/f4f00f8dc66301f15db13c3bf1418cda.gif",
+            "additional": ""
+        }
+    ],
+    "Topics: Academic library strategic planning and organization": [
+        {
+            "title": "Accessibility on the Library Horizon: The NMC Horizon Report > 2017 Library Addition ",
+            "conference": "ACRL National Conference",
+            "location": "Baltimore, MD",
+            "date": "March 2017",
+            "copresenters": ["Melissa Green","Rachel Thompson"],
+            "materials": {
+                "website": "https://accessibility.ua.edu/acrl/"
+                },
+            "imageUrl": "https://conference.acrl.org/wp-content/themes/orbitmedia/images/acrl-conference-logo.svg",
+            "additional": "Panel"
+        },
+        {
+            "title": "What Makes a Leader? An Analysis of Leadership & Organizational Vision",
+            "conference": "ACRL National Conference,",
+            "location": "Baltimore, MD",
+            "date": "March 2017",
+            "copresenters": ["Jason Coleman","Leo Lo"],
+            "materials": {
+                "poster": "https://docs.google.com/presentation/d/1eRvEpsVO32fRZOruAHPPHn1bGGOCuvfwr1Eg17qtAD0/edit#slide=id.p"
+                },
+            "imageUrl": "https://conference.acrl.org/wp-content/themes/orbitmedia/images/acrl-conference-logo.svg",
+            "additional": "Poster Session"
+        },
+        {
+            "title": "Your Librarians Do What Exactly?",
+            "conference": "Tennessee Association of Independent Schools Biannual Conference",
+            "location": "Chattanooga, TN",
+            "date": "November 2016",
+            "copresenters": ["Mary Buxton"],
+            "materials": {
+                "conference website": "http://www.taistn.com/page.cfm?p=900"
+                },
+            "imageUrl": "http://www.taistn.com/uploaded/images/Misc_/TAIS_Logo.JPG",
+            "additional": ""
+        },
+        {
+            "title": "But We've Always Done it This Way!: Managing Expectations of Blended Workforces",
+            "conference": "Brick & Click Academic Libraries Symposium",
+            "location": "Maryville, MO",
+            "date": "04 November 2016",
+            "copresenters": ["Nicholas Wyant"],
+            "materials": {
+                "session information": "https://brickclickanacademiclibrary2016.sched.com/event/6pBC"
+                },
+            "imageUrl": "http://www.nwmissouri.edu/library/brickandclick/img/bandc_logo.png",
+            "additional": ""
+        },
+        {
+            "title": "Innovative Reference Services in College and University Libraries",
+            "conference": "ACRL National Conference",
+            "location": "Portland, OR",
+            "date": "March 2015",
+            "copresenters": ["Jason Coleman","Leo Lo"],
+            "materials": {
+                "handout": "assets/documents/Handout-ColemanMallonLo-ACRL2015.pdf"
+                },
+            "imageUrl": "https://reellibrarians.files.wordpress.com/2015/03/screen-shot-2015-03-23-at-12-22-47-pm.png?w=350&h=200&crop=1",
+            "additional": "Poster Session"
+        },
+        {
+            "title": "Who Needs Expensive Guest Speakers When You Have Librarians Ready to Share Their Knowledge? ",
+            "conference": "ACRL WP/WVC Conference",
+            "location": "Indiana, PA",
+            "date": "May 2010",
+            "copresenters": ["Robin Kear"],
+            "materials": {
+                "slides": "https://prezi.com/ta4xsoskhzlc/who-needs-expensive-guest-speakers-when-you-have-librarians-ready-to-share-their-knowledge/"
+                },
+            "imageUrl": "http://www.wpwvcacrl.org/uploads/5/9/6/9/59694025/1471370159.png",
+            "additional": ""
         }
     ]
-
 }

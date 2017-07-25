@@ -3,7 +3,7 @@
         <img class="darken-image" src="assets/images/open-book.jpg">
     </div>
     <div class="row">
-        <h4 class="header center">Presentations, presentations and more presentations!</h4>
+        <h4 class="header center white-text">Presentations, presentations and more presentations!</h4>
     </div>
 </div>
 <div class="section white">
@@ -22,6 +22,7 @@
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">{{presentation.title}}<i class="material-icons right">close</i></span>
+                            <p>{{presentation.additional}}</p>
                             <div ng-repeat="(link, address) in presentation.materials">
                                 <p><a href="{{address}}" target="_blank">{{link}}</a></p>
                             </div>

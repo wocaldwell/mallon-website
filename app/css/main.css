@@ -1,25 +1,23 @@
 * {
-  font-family: 'Gilda Display', 'Cormorant', serif;
-}
+  font-family: 'Gilda Display', 'Cormorant', serif; }
 
 .nav-wrapper {
   width: 90%;
-  padding: 0 5%;
-}
+  padding: 0 5%; }
 
 #top-parallax {
-  height: 200px;
-}
+  height: 200px; }
 
 .social-icon {
-  height: 40px;
-}
+  height: 40px; }
 
 .video-container {
-  margin: 20px 0;
-}
+  margin: 20px 0; }
 
 .card-image {
-    height: 150px;
-}
+  height: 150px; }
+
+.darken-image {
+  filter: brightness(80%); }
+
 /*# sourceMappingURL=main.css.map */

@@ -3,299 +3,81 @@
         <img class="darken-image" src="assets/images/vineyard.jpg">
     </div>
     <div class="row">
-        <h4 class="header white-text center">Download my complete curriculum vitae <a href="#">HERE</a>.</h4>
+        <h4 class="header white-text center">Download my complete curriculum vitae <a href="assets/documents/Mallon_CV.pdf" target="_blank">HERE</a>.</h4>
     </div>
 </div>
 <div class="section white">
     <div class="row container">
-        <div class="col s12 center">
+        <div class="col s12">
             <h5>PROFESSIONAL EXPERIENCE</h5>
-            <ul class="collection with-header">
-                <li class="collection-header green white-text">
-                    <h5>Director of Peabody Library / Director of Liaison & Instruction Services</h5>
-                    <p>Vanderbilt University (2015-Present)</p>
+            <ul class="collection with-header" ng-repeat="profession in professionalExperience">
+                <li class="collection-header light-green darken-2 white-text">
+                    <h5>{{profession.title}}</h5>
+                    <p>{{profession.institution}}<span class="badge light-green lighten-3 black-text">{{profession.dates}}</span></p>
                 </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Manage operation of the Peabody Library and serve as primary University Library contact for faculty, staff, and students on the Peabody campus (depts include Human & Organizational Development; Leadership, Policy, & Organizations; Psychology & Human Development; Special Education; and Teaching & Learning).</p>
+                <li class="collection-item avatar" ng-repeat="duty in profession.duties">
+                    <i class="material-icons circle green accent-2" ng-if="profession.duties.length == 1">done_all</i>
+                    <i class="material-icons circle green accent-2" ng-if="profession.duties.length != 1">done</i>
+                    <p>{{duty}}</p>
                 </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Provide leadership in the development and implementation of Vanderbilt University Libraries liaison program, especially in the areas of Teaching & Learning; Campus Engagement; and Research and Reference Services.</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Plan, develop, and implement innovative programs for instruction and learning for faculty and students across the university, including use of educational technologies in library instruction, assessment of student learning, and supporting student research through embedded librarianship initiatives.</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Mentor liaison librarians in the development of an entrepreneurial model for interaction with faculty and students in support of learning objectives across the university.</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Participate in aligning library services and programs to the University Strategic Plan.</p>
-                </li>
-            </ul>
-            <ul class="collection with-header">
-                <li class="collection-header green white-text">
-                    <h5>Coordinator of Library Instruction & Assistant Professor</h5>
-                    <p>Wichita State University Libraries (2012-2015)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Coordinated the University Libraries Instruction Program, including instructional design, assessment of student learning, integration of information literacy into the university curriculum, and providing     training and support on instructional technologies for faculty librarians.</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Worked with faculty members and instructors to design research assignments and integrate information literacy, digital literacy, and critical thinking into their courses.</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Promoted and marketed the University Libraries Instruction Program.</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Lead assessment efforts for the Instruction Program, including the development of a rubric for assessing student learning and research in English Composition II.</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>rovided customized information literacy and research instruction (approximately 35 course-related sessions & 6 workshops/semester), outreach, reference services, and collection development for the department of English, the Elliott School of Communication, and the Barton School of Business.</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Offered specialized and general reference services in-person, on the phone, and virtually.</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Designed information literacy learning objects for face-to-face, hybrid, and online education.</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Created multi-media instructional tutorials mapped to student learning outcomes in 21st century competencies.</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Worked with faculty to embed librarians and research tools in Blackboard and via social media (embedded in approximately 11 courses/semester)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Actively participated in scholarly communication initiatives, including contributing to SOAR, the WSU Libraries’ institutional repository.</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Supervised a library school student intern for approximately 8 hours per week in Spring 2013.</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Selected as Fellow for 2014-2015 Wichita State University Leadership Academy.</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle red">assignment</i>
-                    <span class="title">Courses Taught:  LASI 170: Introduction to Library Research</span>
-                    <p>(8 week, 1 credit hour,  online; average 15 students); developed course objectives and learning outcomes; designed course content using social media and other emerging technologies to teach the research process and encourage student collaboration in Blackboard LMS.</p>
-                </li>
-            </ul>
-            <ul class="collection with-header">
-                <li class="collection-header green white-text">
-                    <h5>Adjunct Faculty, Graduate School</h5>
-                    <p>University of Maryland University College (2011 - 2016)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done_all</i>
-                    <p>Serve as an online Writing Coach/Teaching Assistant for the Information & Technology Systems department in the Graduate School.</p>
-                </li>
-            </ul>
-            <ul class="collection with-header">
-                <li class="collection-header green white-text">
-                    <h5>Research & Information Services Librarian & Assistant Professor</h5>
-                    <p>Wichita State University Libraries (2010-2012)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done_all</i>
-                    <p>Provided customized information literacy and research instruction, outreach, reference services, and collection development to departments of English, Modern & Classical Languages & Literatures, Philosophy, Religion, the Elliott School of Communication, and the Barton School of Business; Offered specialized and general reference services in-person, on the phone, and virtually (approx 10 hrs/wk); Designed information literacy learning objects for face-to-face, hybrid and online education;  Created multi-media instructional tutorials mapped to student learning outcomes in 21st century competencies;  Worked with faculty to embed librarians and research tools in Blackboard and via social media; Coordinated library research instruction and assessment for English Composition I and II and Public Speaking</p>
-                </li>
-            </ul>
-            <ul class="collection with-header">
-                <li class="collection-header green white-text">
-                    <h5>Library Instruction Coordinator & Reference Librarian</h5>
-                    <p>University Library System, University of Pittsburgh at Johnstown (2007-2010)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done_all</i>
-                    <p>Coordinated library instruction program; taught majority of library instruction; Planned library workshops and instructional training sessions for colleagues; Marketed and promoted information literacy to faculty; Prepared class handouts and library guides; Maintained statistics and evaluated library instruction program;  Staffed reference desk (approx 10 hrs/wk); Answered email reference questions; Classes Taught: English, Business, Psychology, University Scholarship, Public Speaking, Journalism, Sociology, Social Work, Education.</p>
-                </li>
-            </ul>
-            <ul class="collection with-header">
-                <li class="collection-header green white-text">
-                    <h5>Graduate Assistant, School of Library & Information Science</h5>
-                    <p>Louisiana State University (2005-2007)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done_all</i>
-                    <p>Edited Dr. Carol Barry’s research and articles; Located and retrieved articles in scholarly LIS   journals; Provided Selective Dissemination of Information services.</p>
-                </li>
-            </ul>
-            <ul class="collection with-header">
-                <li class="collection-header green white-text">
-                    <h5>Graduate Teaching Assistant, School of Library & Information Science</h5>
-                    <p>Louisiana State University (Spring 2007)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle red">assignment</i>
-                    <span class="title">Courses Taught:  LIS 2001: Introduction to Information Technologies</span>
-                    <p>Undergraduate, 15 students, used Blackboard for course documents and assignments.</p>
-                </li>
+                <div>
+                    <li class="collection-item avatar" ng-if="profession.coursesTaught.length > 0" ng-repeat="course in profession.coursesTaught">
+                        <i class="material-icons circle light-green accent-2">assignment</i>
+                        <span class="title">Course Taught:  {{course.number}}: {{course.title}}</span>
+                        <p>{{course.level}}; {{course.description}}</p>
+                    </li>
+                </div>
             </ul>
         </div>
     </div>
 </div>
 <div class="parallax-container">
-    <div class="parallax"><img src="images/spike-ricky.jpg"></div>
+    <div class="parallax"><img src="assets/images/spike-ricky.jpg"></div>
 </div>
 <div class="section white">
     <div class="row container">
-        <div class="col s12 center">
+        <div class="col s12">
             <h5>EDUCATION</h5>
-            <ul class="collection">
+            <ul class="collection" ng-repeat="degree in education">
                 <li class="collection-item avatar">
-                    <i class="material-icons circle green">star</i>
-                    <span class="title">Master of Library and Information Science</span>
-                    <p>Louisiana State University, May 2007</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">star</i>
-                    <span class="title">Bachelor of Arts in English Language and Literature; Minor in Art History</span>
-                    <p>Wichita State University, May 2004</p>
+                    <i class="material-icons circle light-green darken-2">school</i>
+                    <h5>{{degree.degree}}</h5>
+                    <p>{{degree.institution}}, {{degree.date}}</p>
                 </li>
             </ul>
         </div>
     </div>
 </div>
 <div class="parallax-container">
-    <div class="parallax"><img src="images/spike-ricky.jpg"></div>
+    <div class="parallax"><img src="assets/images/spike-ricky.jpg"></div>
 </div>
 <div class="section white">
     <div class="row container">
-        <div class="col s12 center">
+        <div class="col s12">
             <h5>RESEARCH INTERESTS</h5>
-            <ul class="collection">
+            <ul class="collection" ng-repeat="interest in researchInterests">
                 <li class="collection-item avatar">
-                    <i class="material-icons circle green">mode_edit</i>
-                    <span class="title">Instructional design</span>
-                </li>
-            </ul>
-            <ul class="collection">
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">mode_edit</i>
-                    <span class="title">Emerging technologies used for information literacy instruction</span>
-                </li>
-            </ul>
-            <ul class="collection">
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">mode_edit</i>
-                    <span class="title">Online learning</span>
-                </li>
-            </ul>
-            <ul class="collection">
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">mode_edit</i>
-                    <span class="title">Integration of information literacy and 21st century competencies into the curriculum</span>
+                    <i class="material-icons circle light-green darken-2">mode_edit</i>
+                    <h5>{{interest}}</h5>
                 </li>
             </ul>
         </div>
     </div>
 </div>
 <div class="parallax-container">
-    <div class="parallax"><img src="images/spike-ricky.jpg"></div>
+    <div class="parallax"><img src="assets/images/spike-ricky.jpg"></div>
 </div>
 <div class="section white">
     <div class="row container">
-        <div class="col s12 center">
+        <div class="col s12">
             <h5>SERVICE</h5>
-            <ul class="collection with-header">
-                <li class="collection-header green white-text">
-                    <h5>Professional Memberships</h5>
+            <ul class="collection with-header" ng-repeat="(type, serviceList) in service">
+                <li class="collection-header light-green darken-2 white-text">
+                    <h5>{{type}}</h5>
                 </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Association of College and Research Libraries (ACRL) – Instruction (2007-present) and Distance Learning (2013-present) sections</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>American Library Association -  New Members Round Table (2006-2012)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Kansas Library Association - College & University Libraries Section (2010-present)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>eLearning Network, Associate Member (2014-present)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Beta Phi Mu (inducted 2007)</p>
-                </li>
-            </ul>
-            <ul class="collection with-header">
-                <li class="collection-header green white-text">
-                    <h5>Selected Committees</h5>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Vanderbilt University Heard Library Research & Instruction Committee, ad-hoc member (2015-present)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Vanderbilt University Instructional Design Working Group (2015-present)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Wichita State University Libraries Leadership Council (2014-2015)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>WSU General Education Committee (2014-2015)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>WSU Barton School of Business Strategic Planning Committee (2013-2015)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>WSU Libraries Strategic Planning Committee (2013-2014)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>WSU Barton School of Business Critical Thinking Task Force (2011-2013)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>ACRL Instruction Section Instructional Technologies Committee (2013-present, Vice-Chair, 2015-present)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>ACRL Distance Learning Section Instruction Committee (2013-2015)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>ACRL Instruction Section Professional Education Committee (2009-1012)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>ALA NMRT Endnotes Committee (2009-present: Asst. Editor, 2010-2011; Editor 2011-2012)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>University of Pittsburgh University Library System Information Literacy & Assessment Working Group (2007-2010)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>Cambria County (PA) One Book One Community Committee (2008-2010)</p>
-                </li>
-                <li class="collection-item avatar">
-                    <i class="material-icons circle green">done</i>
-                    <p>NMRT Endnotes Committee (2009-2012, Chair, 2011-2012)</p>
+                <li class="collection-item avatar" ng-repeat="service in serviceList">
+                    <i class="material-icons circle light-green accent-2">people_outline</i>
+                    <p>{{service}}</p>
                 </li>
             </ul>
         </div>

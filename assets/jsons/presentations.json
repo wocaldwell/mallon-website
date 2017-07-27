@@ -164,7 +164,7 @@
             "date": "November 2013",
             "copresenters": ["Lisa Lapointe"],
             "materials": {
-                "poster": "assets/documents/MallonPoster.pdf"
+                "slides": "https://docs.google.com/presentation/d/1IUrlEglq-4EW_c4KrHQ5al4J9ETw3t4lYFkorYbRs3A/edit#slide=id.p"
                 },
             "imageUrl": "http://www.nwmissouri.edu/library/brickandclick/img/bandc_logo.png",
             "additional": ""
@@ -291,7 +291,7 @@
             "date": "November 2013",
             "copresenters": ["Jason Coleman","Leo Lo"],
             "materials": {
-
+                    "slides": "https://docs.google.com/presentation/d/14wAYbNjUuKMNtxdPYETXlHAYtHRAasC76d4CEb8to80/edit#slide=id.p"
                 },
             "imageUrl": "http://www.k-state.edu/assessment/images/InstituteSLAMark.jpg",
             "additional": ""

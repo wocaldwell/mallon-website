@@ -1,0 +1,143 @@
+{
+    "professionalExperience": [
+        {
+            "title": "Director of Peabody Library / Director of Liaison & Instruction Services",
+            "institution": "Vanderbilt University",
+            "dates": "2015-Present",
+            "duties": [
+                 "Manage operation of the Peabody Library and serve as primary University Library contact for faculty, staff, and students on the Peabody campus (depts include Human & Organizational Development; Leadership, Policy, & Organizations; Psychology & Human Development; Special Education; and Teaching & Learning).",
+                "Supervise 4 professional librarians and 3 full-time staff; spend and allocate library budgets; plan and implement library programming; determine and communicate library policies and procedures.",
+                "Provide leadership in the development and implementation of Vanderbilt University Libraries Liaison & Instruction Program, especially in the areas of teaching & learning; campus engagement; and research and reference services.",
+                "Lead campus-wide instructional efforts including information literacy assessment and undergraduate research initiatives such as Immersion.",
+                "Coordinate Ask a Librarian reference services, supervising task force of librarians triaging online research support.",
+                "Teach workshops on research tools, critical thinking, and research skills to undergraduates, graduate students, and university faculty and staff.",
+                "Plan, develop, and implement innovative programs for instruction and learning for faculty and students across the university, including use of educational technologies in library instruction, assessment of student learning, and supporting student research through embedded librarianship initiatives.",
+                "Mentor liaison librarians in the development of an entrepreneurial model for interaction with faculty and students in support of learning objectives across the university.",
+                "Participate in aligning library services and programs to the University Strategic Plan."
+            ],
+            "coursesTaught": []
+        },
+        {
+            "title": "Coordinator of Library Instruction & Assistant Professor",
+            "institution": "Wichita State University Libraries",
+            "dates": "2012-2015",
+            "duties": [
+                "Coordinated the University Libraries Instruction Program, including instructional design, assessment of student learning, integration of information literacy into the university curriculum, and providing training and support on instructional technologies for faculty librarians and staff.",
+                "Worked with faculty members and instructors to design research assignments and integrate information literacy, digital literacy, and critical thinking into their courses.",
+                "Promoted and marketed the University Libraries Instruction Program.",
+                "Lead assessment efforts for the Instruction Program, including the development of a rubric for assessing student learning and research skills in English Composition II.",
+                "Provided customized information literacy and research instruction (both course-related sessions & workshops), outreach, reference services, and collection development as liaison for the department of English, the School of Communication, and the School of Business, and other depts. as needed.",
+                "Offered specialized and general reference services in-person, on the phone, and virtually.",
+                "Designed information literacy learning objects for face-to-face, hybrid, and online education; created multi-media instructional tutorials mapped to student learning outcomes in 21st century competencies.",
+                "Worked with faculty to embed librarians and research tools in Blackboard and via social media.",
+                "Actively participated in acquisitions and collection development for multiple disciplines, meeting deadlines and managing budgets of near $10,000.",
+                "Supervised a library school student intern for approximately 10 hours per week in Spring 2013.",
+                "Participated in University Libraries strategic planning and annual goal setting initiatives.",
+                "Selected as Fellow for 2014-2015 Wichita State University Leadership Academy."
+
+            ],
+            "coursesTaught": [
+                {
+                    "title": "Introduction to Library Research",
+                    "number": "LASI 170",
+                    "level": "8 week, 1 credit hour, online; average 15 students",
+                    "description": "developed course objectives and learning outcomes; designed course content using social media and other emerging technologies to teach the research process and encourage student collaboration in Blackboard LM"
+                }
+            ]
+        },
+        {
+            "title": "Research & Information Services Librarian & Assistant Professor",
+            "institution": "Wichita State University Libraries",
+            "dates": "2010-2012",
+            "duties": [
+                "Provided customized information literacy and research instruction, outreach, reference services, and collection development to departments of English, Modern & Classical Languages & Literatures, Philosophy, Religion, the School of Communication, the School of Business and selected College of Health Professions depts.; Offered specialized and general reference services in-person, on the phone, and virtually (approx 10 hrs/wk); Designed information literacy learning objects for face-to-face, hybrid and online education; Created multi-media instructional tutorials mapped to student learning outcomes in 21st century competencies; Worked with faculty to embed librarians and research tools in Blackboard and via social media; Coordinated library research instruction and assessment for English Composition I and II and Public Speaking; Implemented emerging technologies for reference & instruction"
+            ],
+            "coursesTaught": []
+        },
+        {
+            "title": "Library Instruction Coordinator & Reference Librarian",
+            "institution": "University Library System, University of Pittsburgh at Johnstown",
+            "dates": "2007-2010",
+            "duties": [
+                "Coordinated library instruction program; Led faculty librarians by assigning library instruction sessions and evaluated librarians’ teaching; Supervised information literacy initiative on campus; Taught majority of library instruction for campus; Planned library workshops; Coordinated & led training sessions for librarians and staff; Marketed and promoted information literacy to faculty; Prepared class handouts and library guides; Maintained statistics and evaluated library instruction program including instruction librarians; Staffed reference and circulation desks, co-supervising student assistants (approx. 10 hrs/wk); Answered email reference questions; Performed collection development for Education; LI Classes Taught: English, Business, Psychology, University Scholarship, Public Speaking, Journalism, Sociology, Social Work, Education; Successfully completed 3rd Year Review for Continuing Employment"
+            ],
+            "coursesTaught": []
+        },
+        {
+            "title": "Adjunct Faculty",
+            "institution": "Graduate School, University of Maryland University College",
+            "dates": "2011-2016",
+            "duties": ["Served as an online Writing Coach/Teaching Assistant for the Information & Technology Systems; Homeland Security; and Management departments in the Graduate School"],
+            "coursesTaught": []
+        },
+        {
+            "title": "Graduate Teaching Assistant",
+            "institution": "School of Library & Information Science, Louisiana State University",
+            "dates": "Spring 2007",
+            "duties": [],
+            "coursesTaught": [
+                {
+                    "title": "Introduction to Information Technologies",
+                    "number": "LIS 2001",
+                    "level": "3 credit hour, undergraduate, 15 students",
+                    "description": "used Blackboard for managing course documents and assignments; engaged students in face to face course lectures and discussions; assessed student learning"
+                }
+            ]
+        },
+        {
+            "title": "Graduate Assistant",
+            "institution": "School of Library & Information Science, Louisiana State University",
+            "dates": "2005-2007",
+            "duties": ["Edited Dr. Carol Barry’s research and articles; Located and retrieved articles in scholarly LIS journals; Provided selective dissemination of information services"],
+            "coursesTaught": []
+        }
+    ],
+    "education": [
+        {
+            "degree": "Master of Library and Information Science",
+            "minor": "",
+            "institution": "Louisiana State University",
+            "date": "May 2007"
+        },
+        {
+            "degree": "Bachelor of Arts in English Language and Literature",
+            "minor": "Minor in Art History",
+            "institution": "Wichita State University",
+            "date": "May 2004"
+        }
+    ],
+    "researchInterests": [
+        "Instructional design",
+        "Educational technologies used for information literacy instruction",
+        "Online learning",
+        "Integration of digital literacy and 21st century competencies into academic curriculum",
+        "Academic library strategic planning and assessment"
+    ],
+    "service": {
+        "Professional Memberships": [
+            "Association of College and Research Libraries (ACRL): Instruction Section (2007-present)",
+            "ACRL Education & Behavioral Sciences Section (2015-present)",
+            "American Library Association",
+            "New Members Round Table (2006-2012)",
+            "Kansas Library Association",
+            "College & University Libraries Section (2010-2015)",
+            "Beta Phi Mu (inducted 2007)"
+        ],
+        "Selected University & Library Committees": [
+            "Digital Literacy Committee,Vanderbilt University (2017-present)",
+            "Organizational Realignment Task Force,Vanderbilt Libraries (2016-present)",
+            "Instructional Design Working Group,Vanderbilt University (2015-present)",
+            "Teaching, Learning, & Research Committee, chair, Vanderbilt Libraries (2015-present)",
+            "Faculty Senate General Education Committee,Wichita State University (2014-2015)",
+            "Barton School of Business Strategic Planning Committee, Wichita State University (2013-2015)",
+            "Library Leadership Council, Wichita State University Libraries (2013-2015)",
+            "Strategic Planning Committee, Wichita State University Libraries (2013-2014)"
+
+        ],
+        "Selected National Committees": [
+            "ACRL Student Learning & Information Literacy Committee (2016-present) Scholarship of Teaching & Learning Team Leader",
+            "ACRL Instruction Section Instructional Technologies Committee (2013-2017) Vice-Chair (2015-2016); Chair (2016-2017)",
+            "Public Services Quarterly Internet Resources Column Editor (2011-Present)"
+        ]
+    }
+}

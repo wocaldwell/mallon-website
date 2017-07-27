@@ -76,7 +76,9 @@
                     <h5>{{type}}</h5>
                 </li>
                 <li class="collection-item avatar" ng-repeat="service in serviceList">
-                    <i class="material-icons circle light-green accent-2">people_outline</i>
+                    <i class="material-icons circle green accent-2" ng-if="type == 'Professional Memberships'">people_outline</i>
+                    <i class="material-icons circle light-green accent-2" ng-if="type == 'Selected University & Library Committees'">school</i>
+                    <i class="material-icons circle light-green lighten-3" ng-if="type == 'Selected National Committees'">people</i>
                     <p>{{service}}</p>
                 </li>
             </ul>

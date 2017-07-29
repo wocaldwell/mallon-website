@@ -3,8 +3,8 @@
 // defining app (remember to assign '"app": true' in your Gruntfile.js in grunt.initConfig under 'Globals"')
 let app = angular.module("MelissaMallon", ["ngRoute"]);
 
-// displaying different routing available with which partial and controller assigned to them
-app.config(function($routeProvider) {
+app.config(function($routeProvider, $sceDelegateProvider) {
+    // displaying different routing available with which partial and controller assigned to them
     $routeProvider
     .when("/", {
         templateUrl: "partials/home.html",
@@ -30,4 +30,13 @@ app.config(function($routeProvider) {
         templateUrl: "partials/curriculumvitae.html",
         controller: "CurriculumVitaeCtrl"
     });
+
+    $sceDelegateProvider.resourceUrlWhitelist([
+       // Allow same origin resource loads.
+       "self",
+       // Allow loading from outside domains.
+       "https://www.youtube.com/**",
+       "https://prezi.com/**",
+       "http://libresources.wichita.edu/**"
+   ]);
 });

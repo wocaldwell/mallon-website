@@ -1,5 +1,10 @@
 * {
-    font-family: 'Gilda Display', 'Cormorant', serif;
+    // font-family: 'Gilda Display', 'Cormorant', serif;
+    font-family: 'Comfortaa', cursive;
+}
+
+.full-height-card-image {
+    height: 100% !important;
 }
 
 // Navbar
@@ -28,6 +33,10 @@
     height: 150px;
 }
 
+//header
+.header {
+    font-family: 'Shadows Into Light', cursive;
+}
 .darken-image {
     filter: brightness(80%);
 }

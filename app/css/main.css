@@ -1,5 +1,8 @@
 * {
-  font-family: 'Gilda Display', 'Cormorant', serif; }
+  font-family: 'Comfortaa', cursive; }
+
+.full-height-card-image {
+  height: 100% !important; }
 
 .nav-wrapper {
   width: 90%;
@@ -16,6 +19,9 @@
 
 .card-image {
   height: 150px; }
+
+.header {
+  font-family: 'Shadows Into Light', cursive; }
 
 .darken-image {
   filter: brightness(80%); }

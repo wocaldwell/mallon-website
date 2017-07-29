@@ -1,0 +1,57 @@
+{
+    "vandy": [
+        {
+            "title": "Introduction to Padlet",
+            "url": "https://www.youtube.com/embed/UfuBk6coh-I"
+        },
+        {
+            "title": "What is Copyright?",
+            "url": "https://www.youtube.com/embed/dywjwYOriOs"
+        }
+    ],
+    "wsu": [
+        {
+            "title": "Primary and Secondary Sources Tutorial",
+            "url": "https://www.youtube.com/embed/vHp1EZwQONM"
+        },
+        {
+            "title": "COMM 321 LibraryTutorial",
+            "url": "https://www.youtube.com/embed/Ui-6E0fhw0Q"
+        },
+        {
+            "title": "Evaluating Journal Articles with the CAARP Test",
+            "url": "https://www.youtube.com/embed/2jGl-Hh_znQ"
+        },
+        {
+
+            "title": "Downloading EndNote for Mac",
+            "url": "https://www.youtube.com/embed/lNCB8ELC97A"
+        }
+    ],
+    "prezi": [
+        {
+            "title": "WRITING LEARNING OUTCOMES FOR LIBRARY INSTRUCTION",
+            "url": "https://prezi.com/embed/bx6hffvpyuex/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0eXBybE9qc3B4ZXFoS1E3cC9IWmdqVXhnPT0&amp;landing_sign=jvtn2cgHZorLn7HhbAAFES3pPusIHK2uLytOZJ6YPPU;html5=1",
+            "resourceUrl": "",
+            "description": "This presentation was created for teaching librarians at Wichita State University Libraries."
+        },
+        {
+            "title": "IMPROVING LIBRARY RESEARCH WITH BLACKBOARD INTEGRATION",
+            "url": "https://prezi.com/embed/gxb8q01bnvwd/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0amxOQ3pyUHF6UHoxZWFYUG9qZUdFUlVBPT0&amp;landing_sign=mLfikfb_J68A-xPXfrY25BhDD2kkZTGB_Hp__bTK-vA",
+            "resourceUrl": "",
+            "description": "A presentation for WSU faculty and instructors on embedding librarians and library resources into Blackboard. I also collaborated with other librarians to create this guide on Blackboard Resources for Faculty."
+        },
+        {
+            "title": "DESIGNING RESEARCH ASSIGNMENTS THAT PROMOTE CRITICAL THINKING",
+            "url": "https://prezi.com/embed/d3-1868l0n9v/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5KzBOY2pjQmlwOU9XQTNvRC92UjVGN3NBPT0&amp;landing_sign=OtVKnHuipMqmLPFna4Dt4abQlPqOJ7tabXdmaSr8458",
+            "resourceUrl": "",
+            "description": "A presentation on integrating critical thinking skills presented to WSU faculty and instructors."
+        },
+        {
+            "title": "ASSESSMENT SYMPOSIA FOR LIBRARIANS",
+            "url": "https://prezi.com/embed/i1nxnlnoxmib/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0dCt2S3o0UFFzNlhicURvN0YrVmdUUWxRPT0&amp;landing_sign=4EIDUIQaxMc-HYn5oQF51EqXSGco10YQY5DpGDFkBrw",
+            "resourceUrl": "http://libresources.wichita.edu/libraryteachingtoolkit/assessmentsymposium/",
+            "description": "I compiled this guide to correspond with a training series for librarians  and staff to assist with assessing student learning in library instruction courses."
+        }
+    ]
+}

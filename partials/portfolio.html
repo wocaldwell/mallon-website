@@ -1,3 +1,15 @@
+<!-- <div class="navbar-fixed">
+    <nav class="nav-extended">
+        <div class="nav-content">
+            <ul class="tabs">
+                <li class="tab"><a href="" ng-click="scrollTo('tutorials')">Tutorials</a></li>
+                <li class="tab"><a ng-click="scrollTo('assessment')">Assessment</a></li>
+                <li class="tab"><a href="#test3">Disabled Tab</a></li>
+                <li class="tab"><a href="#test4">Test 4</a></li>
+            </ul>
+        </div>
+    </nav>
+</div> -->
 <div id="top-parallax" class="parallax-container valign-wrapper">
     <div class="parallax">
         <img class="darken-image" src="assets/images/vineyard.jpg">
@@ -6,173 +18,165 @@
         <h4 class="header white-text center">Here's some stuff I've been working on.</h4>
     </div>
 </div>
+<div class="row">
+    <div class="col s12">
+        <div class="card-panel light-green darken-2">
+            <h5 class="white-text center">Teaching & Learning</h5>
+        </div>
+    </div>
+</div>
 <div class="section white">
-    <div class="row container">
-        <div class="col s12 center">
-            <h5>VIDEO TUTORIALS</h5>
-            <p>SELECTED VIDEO TUTORIALS MADE FOR WICHITA STATE UNIVERSITY LIBRARIES.</p>
-            <div class="row">
-                <div class="col s6">
-                    <div class="video-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vHp1EZwQONM" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="video-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ui-6E0fhw0Q" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="video-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/96Q42hJqCv0" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col s6">
-                    <div class="video-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/2jGl-Hh_znQ" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="video-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/lNCB8ELC97A" frameborder="0" allowfullscreen></iframe>
-                    </div>
+    <div id="tutorials" class="row container">
+        <div class="col s12">
+            <div class="card-panel light-green lighten-2">
+                <h5 class="white-text">Video Tutorials</h5>
+            </div>
+        </div>
+        <div ng-repeat="video in vandyVideos">
+            <div class="col s12">
+                <p class="truncate">{{video.title}}</p>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="{{video.url}}" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
+        </div>
+        <div class="col s12">
+            <h5 class="light-green-text darken-2">Selected tutorials made for Wichita State University Libraries <span><i class="material-icons">arrow_downward</i></span></h5>
+        </div>
+        <div ng-repeat="video in wsuVideos">
+            <div class="col s12 m6">
+                <p>{{video.title}}</p>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="{{video.url}}" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="col s12">
+            <div class="card-panel light-green lighten-2">
+                <h5 class="white-text">Information Literacy Instruction</h5>
+            </div>
+        </div>
+        <div class="col s12">
+            <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header">
+                        <h5>Evidence Based Practice Portal</h5>
+                    </div>
+                    <div class="collapsible-body">
+                        <span>
+                            <p>Created for School of Nursing at Wichita State University</p>
+                            <img class="responsive-img" src="assets/images/evidence-based.png">
+                            <p>This project was created in collaboration with faculty from the Wichita State University College of Health Professions. The Portal can be used as a stand-alone resource for students needing to enhance their skills, or as part of a course to teaching the principles of evidence based practice and information literacy.</p>
+                            <p><a ng-href="http://libraries.wichita.edu/ablah/images/files/tutorials/story_html5.html" target="_blank">Formulating a Search Strategy Tutorial</a> - this tutorial was created with Articulate Storyline and can also be used as a stand-alone learning object or embedded in a CMS.</p>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        <h5>LASI 170: Introduction to Library Research</h5>
+                    </div>
+                    <div class="collapsible-body">
+                        <embed src="assets/documents/IntroToResearch_Syllabus_.pdf" width="100%"/>
+                        <!-- <img class="responsive-img" src=""> -->
+                        <span>
+                            <p>I taught an online section of Wichita State University Libraries' one-credit hour information literacy course. Learning modules included Getting Started on Library Research.</p>
+                            <p><a ng-href="assets/documents/IntroToResearch_Syllabus_.pdf" target="_blank">Course syllabus</a></p>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        <h5>Research Productivity Workshop Series</h5>
+                    </div>
+                    <div class="collapsible-body">
+                        <span>
+                            <p>@ Vanderbilt University</p>
+                            <p><a ng-href="http://researchguides.library.vanderbilt.edu/researchproductivity" target="_blank">Series webpage</a></p>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        <h5>Vanderbilt Libraries Instruction Program</h5>
+                    </div>
+                    <div class="collapsible-body">
+                        <span>
+                            <p>This provides more information for Vanderbilt University faculty and instructors related to critical thinking, information and digital literacies, and library instruction.</p>
+                            <p><a ng-href="http://library.vanderbilt.edu/faculty-staff/instruction.php" target="_blank">Instruction Program</a></p>
+                        </span>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
 <div class="parallax-container">
     <div class="parallax"><img src="assets/images/spike-ricky.jpg"></div>
 </div>
-<div class="section white">
-    <div class="row container">
-        <div class="col s12 center">
-            <h5>ASSESSMENT</h5>
-            <div class="row">
-                <div class="col s12">
-                    <div class="card grey darken-1">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="assets/images/competency-levels.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator white-text">CURRICULUM MAPPING<i class="material-icons right">more_vert</i></span>
-                            <div class="card-action">
-                                <a href="http://libresources.wichita.edu/libraryinstruction/curriculummapping" target="_blank">Check it out</a>
-                            </div>
-                            <div class="card-reveal grey darken-1">
-                                <span class="card-title white-text">CURRICULUM MAPPING<i class="material-icons right">close</i></span>
-                                <p class="white-text">I created this curriculum map for undergraduate courses at Wichita State University, matching information literacy concepts & skills to different course levels. The map corresponds with the general undergraduate student learning outcomes for the WSU Libraries Instruction Program.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12">
-                    <div class="card grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">ENGLISH COMPOSITION 2 RESEARCH ASSESSMENT</span>
-                            <p>This is an ongoing assessment project to measure students' research skills in conjunction with a library research workshop. Student assignments are evaluated with a rubric designed to to measure their mastery of the research process and their digital literacy skills.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="http://libresources.wichita.edu/libraryinstruction/libraryinstructionassessment">Take a look</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12">
-                    <div class="card grey darken-1">
-                        <div class="card-content white-text">
-                            <span class="card-title">ASSESSMENT SYMPOSIA FOR LIBRARIANS</span>
-                            <p>I compiled this guide to correspond with a training series for librarians  and staff to assist with assessing student learning in library instruction courses. Resources include sample evaluation forms, information literacy rubrics, and other resources focusing on techniques for assessment.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="http://libresources.wichita.edu/libraryteachingtoolkit/assessmentsymposium/">The toolkit</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="row">
+    <div class="col s12">
+        <div class="card-panel light-green darken-2">
+            <h5 class="white-text center">Instruction Design</h5>
         </div>
     </div>
 </div>
-<div class="parallax-container">
-    <div class="parallax"><img src="assets/images/spike-ricky.jpg"></div>
-</div>
 <div class="section white">
     <div class="row container">
-        <div class="col s12 center">
-            <h5>INFORMATION LITERACY INSTRUCTION</h5>
-            <div class="row">
-                <div class="col s12">
-                    <div class="card grey darken-1">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="assets/images/evidence-based.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator white-text">EVIDENCE BASED PRACTICE PORTAL<i class="material-icons right">more_vert</i></span>
-                            <div class="card-action">
-                                <a href="http://libresources.wichita.edu/ebpportal" target="_blank">Check it out</a>
-                            </div>
-                        </div>
-                        <div class="card-reveal grey darken-1">
-                            <span class="card-title white-text">EVIDENCE BASED PRACTICE PORTAL<i class="material-icons right">close</i></span>
-                            <p class="white-text">This project was created in collaboration with faculty from the Wichita State University College of Health Professions. The Portal can be used as a stand-alone resource for students needing to enhance their skills, or as part of a course to teaching the principles of evidence based practice and information literacy.</p>
-                        </div>
-                    </div>
+        <div class="col s12">
+            <div class="card hoverable">
+                <div class="card-image full-height-card-image">
+                    <img src="https://usndebate.files.wordpress.com/2016/10/cropped-instruction.jpg">
+                    <span class="card-title">Navigating the Research Landscape</span>
+                </div>
+                <div class="card-content white-text light-green lighten-2">
+                    <p>served as Co-PI-designate on EE Ford grant for partnership between Vanderbilt University Libraries and University School of Nashville to design a high school debate curriculum that focuses on the development of university-level research skills. Created an open source</p>
+                </div>
+                <div class="card-action">
+                    <a href="https://usndebate.wordpress.com" target="_blank">Project website</a>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="parallax-container">
-    <div class="parallax"><img src="assets/images/spike-ricky.jpg"></div>
-</div>
-<div class="section white">
-    <div class="row container">
-        <div class="col s12 center">
-            <h5 id="training-materials">TRAINING MATERIALS</h5>
-            <p>TRAINING MODULES I HAVE DEVELOPED FOR LIBRARIANS AND UNIVERSITY FACULTY/STAFF.</p>
-            <div class="row">
-                <div class="col s6">
-                    <p>WRITING LEARNING OUTCOMES FOR LIBRARY INSTRUCTION</p>
-                    <div class="video-container">
-                        <iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="550" height="400" src="https://prezi.com/embed/bx6hffvpyuex/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0eXBybE9qc3B4ZXFoS1E3cC9IWmdqVXhnPT0&amp;landing_sign=jvtn2cgHZorLn7HhbAAFES3pPusIHK2uLytOZJ6YPPU;html5=1"></iframe>
-                    </div>
-                    <p>This presentation was created for teaching librarians at Wichita State University Libraries.</p><br>
-                    <p>IMPROVING LIBRARY RESEARCH WITH BLACKBOARD INTEGRATION</p>
-                    <div class="video-container">
-                        <iframe frameborder="0" allowfullscreen width="550" height="400" src="https://prezi.com/embed/gxb8q01bnvwd/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0amxOQ3pyUHF6UHoxZWFYUG9qZUdFUlVBPT0&amp;landing_sign=mLfikfb_J68A-xPXfrY25BhDD2kkZTGB_Hp__bTK-vA"></iframe>
-                    </div>
-                    <p>A presentation for WSU faculty and instructors on embedding librarians and library resources into Blackboard. I also collaborated with other librarians to create this guide on Blackboard Resources for Faculty.</p>
+        <div class="col s12">
+            <div class="card-panel light-green lighten-2">
+                <h5 class="white-text">Training Materials</h5>
+            </div>
+        </div>
+        <div class="col s12">
+            <div class="card hoverable">
+                <div class="card-image full-height-card-image">
+                    <img src="http://lgimages.s3.amazonaws.com/data/imagemanager/72228/infolitwordcloud.jpg">
+                    <span class="card-title light-green-text darken-2">Teaching Bootcamp for Library Staff</span>
                 </div>
-                <div class="col s6">
-                    <p>DESIGNING RESEARCH ASSIGNMENTS THAT PROMOTE CRITICAL THINKING</p>
-                    <div class="video-container">
-                        <iframe frameborder="0" allowfullscreen width="550" height="400" src="https://prezi.com/embed/d3-1868l0n9v/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5KzBOY2pjQmlwOU9XQTNvRC92UjVGN3NBPT0&amp;landing_sign=OtVKnHuipMqmLPFna4Dt4abQlPqOJ7tabXdmaSr8458"></iframe>
-                    </div>
-                    <p>A presentation on integrating critical thinking skills presented to WSU faculty and instructors.</p><br>
-                    <p>ASSESSMENT SYMPOSIA FOR LIBRARIANS</p>
-                    <div class="video-container">
-                        <iframe frameborder="0" allowfullscreen width="550" height="400" src="https://prezi.com/embed/i1nxnlnoxmib/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0dCt2S3o0UFFzNlhicURvN0YrVmdUUWxRPT0&amp;landing_sign=4EIDUIQaxMc-HYn5oQF51EqXSGco10YQY5DpGDFkBrw"></iframe>
-                    </div>
-                    <p>I compiled this guide to correspond with a training series for librarians  and staff to assist with assessing student learning in library instruction courses. The entire symposium curriculum can be found <a href="http://libresources.wichita.edu/libraryteachingtoolkit/assessmentsymposium/">here</a>.</p>
+                <div class="card-content white-text light-green lighten-2">
+                    <p>Over 40 library staff participated in a 2-day Teaching Bootcamp, which covered foundational instructional design skills and strategies for engaging students in active learning and assessment. Attendees participated in a number of workshops and activities designed to strengthen their teaching skills and help them develop new techniques for their training and classes in the fall.</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://researchguides.library.vanderbilt.edu/libteachingtoolkit/2017bootcamp" target="_blank">Bootcamp website</a>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="parallax-container">
-    <div class="parallax"><img src="assets/images/spike-ricky.jpg"></div>
-</div>
-<div class="section white">
-    <div class="row container">
-        <div class="col s12 center">
-            <h5>RESEARCH GUIDES</h5>
-            <p>A selection of guides I have created for WSU Libraries:</p>
-            <div class="collection">
-                <a href="http://libresources.wichita.edu/businessresearch" class="collection-item" target="_blank">5 Steps to Becoming a Better Business Researcher</a>
-                <a href="http://libresources.wichita.edu/comm111" class="collection-item" target="_blank">COMM 111: Public Speaking</a>
-                <a href="http://libresources.wichita.edu/digitalhumanities" class="collection-item" target="_blank">Digital Humanities</a>
-                <a href="" class="collection-item" target="_blank">Distance Learning Resources BROKEN</a>
-                <a href="http://libresources.wichita.edu/engl590connor" class="collection-item" target="_blank">ENGL 590: Early English Drama</a>
-                <a href="http://libresources.wichita.edu/gradguide" class="collection-item" target="_blank">Graduate School Survival Guide</a>
-                <a href="http://libresources.wichita.edu/mkt607" class="collection-item" target="_blank">MKT 607: Promotion Management</a>
-                <a href="http://libresources.wichita.edu/prezi" class="collection-item" target="_blank">Prezi</a>
+        <div class="col s12">
+            <div class="card hoverable">
+                <div class="card-content white-text light-green lighten-2">
+                    <span class="card-title">Liaison Librarian Toolkit</span>
+                    <p>Resource kit developed for librarians at Vanderbilt University Libraries.</p>
+                </div>
+                <div class="card-action">
+                    <a href="http://researchguides.library.vanderbilt.edu/liaisontoolkit" target="_blank">Toolkit website</a>
+                </div>
+            </div>
+        </div>
+        <div class="col s12">
+            <h5 class="light-green-text darken-2">Training modules I have developed for librarians and university faculty/staff <span><i class="material-icons">arrow_downward</i></span></h5>
+        </div>
+        <div ng-repeat="prezi in prezis">
+            <div class="col s12 m6">
+                <p ng-if="prezi.resourceUrl == ''">{{prezi.title}}</p>
+                <p ng-if="prezi.resourceUrl != ''"><a ng-href="{{prezi.resourceUrl}}" target="_blank">{{prezi.title}}</a></p>
+                <div class="video-container">
+                    <iframe frameborder="0" allowfullscreen width="550" height="400" src="{{prezi.url}}"></iframe>
+                </div>
+                <p>{{prezi.description}}</p>
             </div>
         </div>
     </div>

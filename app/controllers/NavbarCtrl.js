@@ -6,4 +6,8 @@ app.controller("NavbarCtrl", function($scope, $window, $location){
         $(".button-collapse").sideNav();
     });
 
+    $scope.hideSideNav = function(){
+        $('.button-collapse').sideNav('hide');
+    };
+
 });

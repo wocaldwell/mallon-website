@@ -3,24 +3,39 @@
         <img class="darken-image" src="assets/images/open-book.jpg">
     </div>
     <div class="row">
-        <h4 class="header center">Here's some of my published work.</h4>
+        <h4 class="header center white-text">Here's some of my published work.</h4>
     </div>
 </div>
 <div class="section white">
-    <div class="container" ng-repeat="(type, pubsList) in publications">
-        <h4>{{type}}</h4>
-        <ul class="collection" ng-repeat="publication in pubsList">
-            <li class="collection-item avatar">
-                <img class="circle" src="{{publication.imageUrl}}">
-                <span class="title"><a href="{{publication.url}}" target="_blank">{{publication.title}}</a></span>
-                <p>{{publication.year}}</p>
-                <p>{{publication.journalTitle}}</p>
-                <p>{{publication.publisher}}</p>
-            </li>
-        </ul>
+    <div ng-repeat="(type, pubsList) in publications">
+        <div class="row">
+            <div class="col s12">
+                <div class="card-panel light-green darken-2">
+                    <h4 class="white-text center">{{type}}</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <ul class="collection">
+                <li class="collection-item avatar" ng-repeat="publication in pubsList">
+                    <img class="circle" ng-if="publication.imageUrl == ''" src="{{defaultBookImagePath}}">
+                    <img class="circle" ng-if="publication.imageUrl != ''" src="{{publication.imageUrl}}">
+                    <span class="title"><a href="{{publication.url}}" target="_blank">{{publication.title}}</a></span>
+                    <p>{{publication.year}}</p>
+                    <p>{{publication.journalTitle}}</p>
+                    <p>{{publication.publisher}}</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <div class="card-panel light-green darken-2">
+                <h4 class="white-text center">Editorships</h4>
+            </div>
+        </div>
     </div>
     <div class="container">
-        <h4>Editorships</h4>
         <ul class="collection">
             <li class="collection-item avatar">
                 <img src="http://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/wpsq20/2017/wpsq20.v013.i02/wpsq20.v013.i02/20170516-01/wpsq20.v013.i02.cover.jpg" class="circle">
@@ -30,8 +45,14 @@
             </li>
         </ul>
     </div>
+    <div class="row">
+        <div class="col s12">
+            <div class="card-panel light-green darken-2">
+                <h4 class="white-text center">Reviewer & Contributing Author</h4>
+            </div>
+        </div>
+    </div>
     <div class="container">
-        <h4>Reviewer & Contributing Author</h4>
         <ul class="collection">
             <li class="collection-item avatar">
                 <img src="https://pbs.twimg.com/profile_images/741270223815335937/7V7nrhNV.jpg" class="circle">
@@ -47,12 +68,12 @@
             </li>
             <li class="collection-item avatar">
                 <img src="https://www.projectcora.org/sites/default/files/images/Screen%20Shot%202016-07-25%20at%206.51.45%20PM.png" class="circle">
-                <span class="title">First-Year Academic Librarian Author </span>
+                <span class="title">First-Year Academic Librarian Author</span>
                 <p>ACRLog</p>
                 <p>(Sept 2007-2008)</p>
             </li>
             <li class="collection-item avatar">
-                <img src="" class="circle">
+                <img src="{{defaultBookImagePath}}" class="circle">
                 <span class="title">Guest column editor</span>
                 <p>Louisiana Libraries Journal</p>
                 <p>(April 2007)</p>

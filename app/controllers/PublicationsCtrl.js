@@ -9,6 +9,7 @@ app.controller("PublicationsCtrl", function($scope, JsonFactory){
     $("#cv-link").removeClass("active");
     $("#home-link").removeClass("active");
 
+    $scope.defaultBookImagePath = "assets/images/open-book.jpg";
 
     $(document).ready(function(){
         $('.parallax').parallax();

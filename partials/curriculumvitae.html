@@ -1,3 +1,12 @@
+<div class="navbar-fixed sub-nav hide-on-small-only">
+    <nav class="sub-nav grey darken-4">
+        <div class="nav-wrapper container">
+            <ul class="right" ng-repeat="catagory in cvCatagories">
+                <li ng-click="goToHash(catagory)"><a href="">{{catagory}}</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 <div id="top-parallax" class="parallax-container valign-wrapper">
     <div class="parallax">
         <img class="darken-image" src="assets/images/vineyard.jpg">
@@ -9,24 +18,32 @@
 <div class="section white">
     <div class="row container">
         <div class="col s12">
-            <h5>PROFESSIONAL EXPERIENCE</h5>
-            <ul class="collection with-header" ng-repeat="profession in professionalExperience">
-                <li class="collection-header light-green darken-2 white-text">
-                    <h5>{{profession.title}}</h5>
-                    <p>{{profession.institution}}<span class="badge light-green lighten-3 black-text">{{profession.dates}}</span></p>
-                </li>
-                <li class="collection-item avatar" ng-repeat="duty in profession.duties">
-                    <i class="material-icons circle green accent-2" ng-if="profession.duties.length == 1">done_all</i>
-                    <i class="material-icons circle green accent-2" ng-if="profession.duties.length != 1">done</i>
-                    <p>{{duty}}</p>
-                </li>
-                <div>
-                    <li class="collection-item avatar" ng-if="profession.coursesTaught.length > 0" ng-repeat="course in profession.coursesTaught">
+            <h5 id="{{cvCatagories[3]}}">{{cvCatagories[3]}}</h5>
+            <ul class="collapsible popout"  data-collapsible="expandable">
+                <li ng-repeat="profession in professionalExperience">
+                    <div class="collapsible-header light-green darken-2 white-text">
+                        <span>
+                            {{profession.title}}
+                            <p>{{profession.institution}}<span class="badge light-green lighten-3 black-text">{{profession.dates}}</span></p>
+                        </span>
+                    </div>
+                    <div class="collapsible-body" ng-repeat="duty in profession.duties">
+                        <div class="row">
+                            <div class="col s1">
+                                <i class="material-icons circle green accent-2" ng-if="profession.duties.length == 1">done_all</i>
+                                <i class="material-icons circle green accent-2" ng-if="profession.duties.length != 1">done</i>
+                            </div>
+                            <div class="col s11">
+                                <span>{{duty}}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapsible-body" ng-if="profession.coursesTaught.length > 0" ng-repeat="course in profession.coursesTaught">
                         <i class="material-icons circle light-green accent-2">assignment</i>
                         <span class="title">Course Taught:  {{course.number}}: {{course.title}}</span>
                         <p>{{course.level}}; {{course.description}}</p>
-                    </li>
-                </div>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
@@ -37,7 +54,7 @@
 <div class="section white">
     <div class="row container">
         <div class="col s12">
-            <h5>EDUCATION</h5>
+            <h5 id="{{cvCatagories[2]}}">{{cvCatagories[2]}}</h5>
             <ul class="collection" ng-repeat="degree in education">
                 <li class="collection-item avatar">
                     <i class="material-icons circle light-green darken-2">school</i>
@@ -54,7 +71,7 @@
 <div class="section white">
     <div class="row container">
         <div class="col s12">
-            <h5>RESEARCH INTERESTS</h5>
+            <h5 id="{{cvCatagories[1]}}">{{cvCatagories[1]}}</h5>
             <ul class="collection" ng-repeat="interest in researchInterests">
                 <li class="collection-item avatar">
                     <i class="material-icons circle light-green darken-2">mode_edit</i>
@@ -70,16 +87,24 @@
 <div class="section white">
     <div class="row container">
         <div class="col s12">
-            <h5>SERVICE</h5>
-            <ul class="collection with-header" ng-repeat="(type, serviceList) in service">
-                <li class="collection-header light-green darken-2 white-text">
-                    <h5>{{type}}</h5>
-                </li>
-                <li class="collection-item avatar" ng-repeat="service in serviceList">
-                    <i class="material-icons circle green accent-2" ng-if="type == 'Professional Memberships'">people_outline</i>
-                    <i class="material-icons circle light-green accent-2" ng-if="type == 'Selected University & Library Committees'">school</i>
-                    <i class="material-icons circle light-green lighten-3" ng-if="type == 'Selected National Committees'">people</i>
-                    <p>{{service}}</p>
+            <h5 id="{{cvCatagories[0]}}">{{cvCatagories[0]}}</h5>
+            <ul class="collapsible popout" data-collapsible="expandable">
+                <li ng-repeat="(type, serviceList) in service">
+                    <div class="collapsible-header light-green darken-2 white-text">
+                        <span>{{type}}</span>
+                    </div>
+                    <div class="collapsible-body" ng-repeat="service in serviceList">
+                        <div class="row">
+                            <div class="col s1">
+                                <i class="material-icons circle green accent-2" ng-if="type == 'Professional Memberships'">people_outline</i>
+                                <i class="material-icons circle light-green accent-2" ng-if="type == 'Selected University & Library Committees'">school</i>
+                                <i class="material-icons circle light-green lighten-3" ng-if="type == 'Selected National Committees'">people</i>
+                            </div>
+                            <div class="col s11">
+                                <span>{{service}}</span>
+                            </div>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>

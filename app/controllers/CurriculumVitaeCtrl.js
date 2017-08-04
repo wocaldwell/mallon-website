@@ -1,6 +1,6 @@
 "use strict";
 
-app.controller("CurriculumVitaeCtrl", function($scope, $window, $location, $anchorScroll, JsonFactory){
+app.controller("CurriculumVitaeCtrl", function($scope, $window, $location, JsonFactory, AnchorScrollFactory){
 
     // make this link appear "active"
     $("#portfolio-link").removeClass("active");
@@ -11,12 +11,12 @@ app.controller("CurriculumVitaeCtrl", function($scope, $window, $location, $anch
 
     $scope.cvCatagories = ["Service", "Research Interests", "Education", "Professional Experience"];
 
-    // compensate for fixed navs
-    $anchorScroll.yOffset = 100;
+    // compensate scroll-links for fixed navs
+    AnchorScrollFactory.setHeightOffset(100);
 
     // make links go to selected section of page on click
-    $scope.goToHash = function(hashId){
-        $anchorScroll(hashId);
+    $scope.goToSection = function(section){
+        AnchorScrollFactory.scrollToSection(section);
     };
 
 

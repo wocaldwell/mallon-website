@@ -1,0 +1,24 @@
+{
+    "socialAccounts": [
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/librarianliss",
+            "imageUrl": "assets/images/twitter-icon.png"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/melissamallon/",
+            "imageUrl": "assets/images/linkedin-logo.png"
+        },
+        {
+            "name": "Youtube",
+            "url": "https://www.youtube.com/channel/UCmMA1J7Be8_f8HqGGRmJHTg",
+            "imageUrl": "assets/images/youtube-icon.png"
+        },
+        {
+            "name": "Vimeo",
+            "url": "https://vimeo.com/librarianliss",
+            "imageUrl": "assets/images/vimeo-icon.png"
+        }
+    ]
+}

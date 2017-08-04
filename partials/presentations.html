@@ -1,3 +1,21 @@
+<div class="navbar-fixed sub-nav hide-on-small-only">
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li ng-click="goToSection('section-2')"><a class="light-green-text darken-2">Literacies</a></li>
+        <li ng-click="goToSection('section-3')"><a class="light-green-text darken-2">Instruction</a></li>
+        <li ng-click="goToSection('section-4')"><a class="light-green-text darken-2">Educational</a></li>
+        <li ng-click="goToSection('section-5')"><a class="light-green-text darken-2">Administration</a></li>
+    </ul>
+    <nav class="sub-nav grey darken-4">
+        <div class="nav-wrapper container">
+            <ul class="right">
+                <li ng-click="goToSection('section-0')"><a href="">Featured Speaker</a></li>
+                <li ng-click="goToSection('section-1')"><a href="">Courses & Workshops</a></li>
+                <li><a class="dropdown-button" href="" data-activates="dropdown1">Presentation Topics<i class="material-icons right sub-nav">arrow_drop_down</i></a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 <div id="top-parallax" class="parallax-container valign-wrapper">
     <div class="parallax">
         <img class="darken-image" src="assets/images/open-book.jpg">
@@ -9,7 +27,7 @@
 <div class="section white">
     <div class="container" ng-repeat="(type, presentationList) in presentations">
         <div class="row">
-            <h4>{{type}}</h4>
+            <h4 id="section-{{$index}}" class="light-green-text darken-2">{{type}}</h4>
             <div ng-repeat="presentation in presentationList">
                 <div class="col s12 m6 l4">
                     <div class="card medium">

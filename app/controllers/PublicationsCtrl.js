@@ -1,6 +1,6 @@
 "use strict";
 
-app.controller("PublicationsCtrl", function($scope, JsonFactory){
+app.controller("PublicationsCtrl", function($scope, JsonFactory, AnchorScrollFactory){
 
     // make this link appear "active"
     $("#portfolio-link").removeClass("active");
@@ -11,8 +11,17 @@ app.controller("PublicationsCtrl", function($scope, JsonFactory){
 
     $scope.defaultBookImagePath = "assets/images/open-book.jpg";
 
+    // compensate scroll-links for fixed navs
+    AnchorScrollFactory.setHeightOffset(100);
+
+    // make links go to selected section of page on click
+    $scope.goToSection = function(section){
+        AnchorScrollFactory.scrollToSection(section);
+    };
+
     $(document).ready(function(){
         $('.parallax').parallax();
+        $(".dropdown-button").dropdown();
     });
 
     JsonFactory.getJsonData("assets/jsons/publications.json")

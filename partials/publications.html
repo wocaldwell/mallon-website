@@ -1,3 +1,22 @@
+<div class="navbar-fixed sub-nav hide-on-small-only">
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li ng-click="goToSection('section-0')"><a class="light-green-text darken-2">Literacies</a></li>
+        <li ng-click="goToSection('section-1')"><a class="light-green-text darken-2">Instruction</a></li>
+        <li ng-click="goToSection('section-2')"><a class="light-green-text darken-2">Educational</a></li>
+        <li ng-click="goToSection('section-3')"><a class="light-green-text darken-2">Administration</a></li>
+        <li ng-click="goToSection('section-4')"><a class="light-green-text darken-2">other</a></li>
+    </ul>
+    <nav class="sub-nav grey darken-4">
+        <div class="nav-wrapper container">
+            <ul class="right">
+                <li><a class="dropdown-button" href="" data-activates="dropdown1">Publication Topics<i class="material-icons right sub-nav">arrow_drop_down</i></a></li>
+                <li ng-click="goToSection('section-5')"><a href="">Editorships</a></li>
+                <li ng-click="goToSection('section-6')"><a href="">Contributing Author</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 <div id="top-parallax" class="parallax-container valign-wrapper">
     <div class="parallax">
         <img class="darken-image" src="assets/images/open-book.jpg">
@@ -9,7 +28,7 @@
 <div class="section white">
     <div ng-repeat="(type, pubsList) in publications">
         <div class="row">
-            <div class="col s12">
+            <div id="section-{{$index}}" class="col s12">
                 <div class="card-panel light-green darken-2">
                     <h4 class="white-text center">{{type}}</h4>
                 </div>
@@ -30,7 +49,7 @@
     </div>
     <div class="row">
         <div class="col s12">
-            <div class="card-panel light-green darken-2">
+            <div id="section-5" class="card-panel light-green darken-2">
                 <h4 class="white-text center">Editorships</h4>
             </div>
         </div>
@@ -47,7 +66,7 @@
     </div>
     <div class="row">
         <div class="col s12">
-            <div class="card-panel light-green darken-2">
+            <div id="section-6" class="card-panel light-green darken-2">
                 <h4 class="white-text center">Reviewer & Contributing Author</h4>
             </div>
         </div>

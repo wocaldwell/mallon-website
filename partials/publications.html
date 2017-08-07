@@ -5,7 +5,7 @@
         <li ng-click="goToSection('section-1')"><a class="light-green-text darken-2">Instruction</a></li>
         <li ng-click="goToSection('section-2')"><a class="light-green-text darken-2">Educational</a></li>
         <li ng-click="goToSection('section-3')"><a class="light-green-text darken-2">Administration</a></li>
-        <li ng-click="goToSection('section-4')"><a class="light-green-text darken-2">other</a></li>
+        <li ng-click="goToSection('section-4')"><a class="light-green-text darken-2">Various</a></li>
     </ul>
     <nav class="sub-nav grey darken-4">
         <div class="nav-wrapper container">
@@ -27,7 +27,7 @@
 </div>
 <div class="section white">
     <div ng-repeat="(type, pubsList) in publications">
-        <h4 class="light-green-text darken-2 section-header">{{type}}</h4>
+        <h4 id="section-{{$index}}" class="light-green-text darken-2 section-header">{{type}}</h4>
         <div class="container">
             <ul class="collection">
                 <li class="collection-item avatar" ng-repeat="publication in pubsList">
@@ -41,7 +41,7 @@
             </ul>
         </div>
     </div>
-    <h4 class="light-green-text darken-2 section-header">Editorships</h4>
+    <h4 id="section-5" class="light-green-text darken-2 section-header">Editorships</h4>
     <div class="container">
         <ul class="collection">
             <li class="collection-item avatar">
@@ -52,7 +52,7 @@
             </li>
         </ul>
     </div>
-    <h4 class="light-green-text darken-2 section-header">Reviewer & Contributing Author</h4>
+    <h4 id="section-6" class="light-green-text darken-2 section-header">Reviewer & Contributing Author</h4>
     <div class="container">
         <ul class="collection">
             <li class="collection-item avatar">

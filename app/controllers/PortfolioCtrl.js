@@ -1,6 +1,6 @@
 "use strict";
 
-app.controller("PortfolioCtrl", function($scope, $window, $location, $anchorScroll, JsonFactory){
+app.controller("PortfolioCtrl", function($scope, $window, $location, JsonFactory, AnchorScrollFactory){
 
     // make this link appear "active"
     $("#portfolio-link").addClass("active");
@@ -9,18 +9,19 @@ app.controller("PortfolioCtrl", function($scope, $window, $location, $anchorScro
     $("#cv-link").removeClass("active");
     $("#home-link").removeClass("active");
 
+    // compensate scroll-links for fixed navs
+    AnchorScrollFactory.setHeightOffset(100);
+
+    // make links go to selected section of page on click
+    $scope.goToSection = function(section){
+        AnchorScrollFactory.scrollToSection(section);
+    };
 
     $(document).ready(function(){
         $('.parallax').parallax();
         $('.collapsible').collapsible();
-        // $('ul.tabs').tabs();
     });
 
-    // for possible nav
-    // $scope.scrollTo = function(id) {
-    //     $location.hash(id);
-    //     $anchorScroll();
-    // };
 
     JsonFactory.getJsonData("assets/jsons/embedded.json")
     .then(function(returnedData){

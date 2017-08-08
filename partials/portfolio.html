@@ -1,15 +1,13 @@
-<!-- <div class="navbar-fixed">
-    <nav class="nav-extended">
-        <div class="nav-content">
-            <ul class="tabs">
-                <li class="tab"><a href="" ng-click="scrollTo('tutorials')">Tutorials</a></li>
-                <li class="tab"><a ng-click="scrollTo('assessment')">Assessment</a></li>
-                <li class="tab"><a href="#test3">Disabled Tab</a></li>
-                <li class="tab"><a href="#test4">Test 4</a></li>
+<div class="navbar-fixed sub-nav hide-on-small-only">
+    <nav class="sub-nav grey darken-4">
+        <div class="nav-wrapper container">
+            <ul class="right">
+                <li ng-click="goToSection('section-teaching')"><a href="">Teaching & Learning</a></li>
+                <li ng-click="goToSection('section-instruction')"><a href="">Instruction Design</a></li>
             </ul>
         </div>
     </nav>
-</div> -->
+</div>
 <div id="top-parallax" class="parallax-container valign-wrapper">
     <div class="parallax">
         <img class="darken-image" src="assets/images/vineyard.jpg">
@@ -19,7 +17,7 @@
     </div>
 </div>
 <div class="section white">
-    <h4 class="light-green-text darken-2 section-header">Teaching & Learning</h4>
+    <h4 id="section-teaching" class="light-green-text darken-2 section-header">Teaching & Learning</h4>
     <div id="tutorials" class="row container">
         <div class="col s12">
             <div class="card-panel light-green lighten-2">
@@ -108,7 +106,7 @@
     <div class="parallax"><img src="assets/images/spike-ricky.jpg"></div>
 </div>
 <div class="section white">
-    <h4 class="light-green-text darken-2 section-header">Instruction Design</h4>
+    <h4 id="section-instruction" class="light-green-text darken-2 section-header">Instruction Design</h4>
     <div class="row container">
         <div class="col s12">
             <div class="card hoverable">

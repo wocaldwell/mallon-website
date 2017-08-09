@@ -21,7 +21,8 @@
   height: 150px; }
 
 .header {
-  font-family: 'Shadows Into Light', cursive; }
+  font-family: 'Sedgwick Ave', cursive;
+  margin: 15px; }
 
 .darken-image {
   filter: brightness(80%); }

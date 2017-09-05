@@ -7,38 +7,34 @@
     </div>
 </div>
 <div class="section white">
-    <div class="row container">
-        <form name="contact-form" class="col s12">
+    <div class="container">
+        <form name="submissionForm">
             <div class="row">
                 <div class="input-field col s6">
-                    <input id="first_name" type="text" class="validate" ng-model="contactForm.firstName">
-                    <label for="first_name">First Name</label>
+                    <input name="first_name" type="text" ng-model="contactForm.firstName" required>
+                    <label for="first_name">First Name*</label>
                 </div>
                 <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate" ng-model="contactForm.lastName">
-                    <label for="last_name">Last Name</label>
+                    <input name="last_name" type="text" ng-model="contactForm.lastName" required>
+                    <label for="last_name">Last Name*</label>
                 </div>
             </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <input id="email" type="email" class="validate" ng-model="contactForm.sender" required>
-                    <label for="email">Email</label>
-                </div>
+            <div class="input-field col s12">
+                <input name="email" type="email" class="validate" ng-model="contactForm.sender" required>
+                <label for="email" data-error="invalid" data-success="valid">Email*</label>
             </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <input id="subject" type="text" class="validate" ng-model="contactForm.subject" required>
-                    <label for="subject">Subject</label>
-                </div>
+            <div class="input-field">
+                <input name="subject" type="text" ng-model="contactForm.subject" required>
+                <label for="subject">Subject*</label>
             </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <textarea id="textarea1" class="materialize-textarea" ng-model="contactForm.message" required></textarea>
-                    <label for="textarea1">Message</label>
-                </div>
+            <div class="input-field">
+                <textarea name="message" class="materialize-textarea" ng-model="contactForm.message" required />
+                <label for="message">Message*</label>
             </div>
-            <button class="btn waves-effect waves-light light-green darken-2 center" type="submit" name="action" ng-click="sendFormToServer()">Submit<i class="material-icons right">send</i>
+            <button type="submit" class="btn waves-effect waves-light light-green darken-2 center" ng-click="submissionForm.$valid && sendFormToServer()">
+                Submit<i class="material-icons right">send</i>
             </button>
-      </form>
+        </form>
+        <p>* Required field.</p>
     </div>
 </div>

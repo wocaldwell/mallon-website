@@ -10,8 +10,8 @@ app.controller("ContactMeCtrl", function($scope, $window, $location, $http, cont
     // $("#home-link").addClass("active");
 
     $scope.contactForm = {
-        firstName: '',
-        lastName: '',
+        firstName: 'Bob',
+        lastName: 'Oblaw',
         sender: 'me@me.com',
         subject: 'Hello',
         message: 'Nice try, dude!'
@@ -28,7 +28,8 @@ app.controller("ContactMeCtrl", function($scope, $window, $location, $http, cont
             method: "POST",
 
             data: {
-                "csrfmiddlewaretoken": "{% csrf_token %}",
+                "first_name": $scope.contactForm.firstName,
+                "last_name": $scope.contactForm.lastName,
                 "from_email": $scope.contactForm.sender,
                 "subject": $scope.contactForm.subject,
                 "message": $scope.contactForm.message

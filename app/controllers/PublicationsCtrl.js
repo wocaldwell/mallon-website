@@ -9,7 +9,7 @@ app.controller("PublicationsCtrl", function($scope, JsonFactory, AnchorScrollFac
     $("#cv-link").removeClass("active");
     $("#home-link").removeClass("active");
 
-    $scope.defaultBookImagePath = "assets/images/open-book.jpg";
+    $scope.defaultBookImagePath = "assets/images/mnm-book-logo.png";
 
     // compensate scroll-links for fixed navs
     AnchorScrollFactory.setHeightOffset(100);

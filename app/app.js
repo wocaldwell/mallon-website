@@ -30,6 +30,10 @@ app.config(function($routeProvider, $sceDelegateProvider) {
     .when("/curriculumvitae", {
         templateUrl: "partials/curriculumvitae.html",
         controller: "CurriculumVitaeCtrl"
+    })
+    .when("/confirmation", {
+        templateUrl: "partials/confirmation.html",
+        controller: "ConfirmationCtrl"
     });
 
     $sceDelegateProvider.resourceUrlWhitelist([

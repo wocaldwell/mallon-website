@@ -23,6 +23,7 @@ app.controller("ContactMeCtrl", function($scope, $window, $location, $http, cont
 
     $scope.sendFormToServer = function() {
         console.log("hi");
+        $window.location.href = "#!/confirmation";
         return $http({
             url: `${contactFormURL}/email/`,
             method: "POST",

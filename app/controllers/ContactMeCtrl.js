@@ -2,12 +2,11 @@
 
 app.controller("ContactMeCtrl", function($scope, $window, $location, $http, contactFormURL){
 
-    // make this link appear "active"
-    // $("#portfolio-link").removeClass("active");
-    // $("#publications-link").removeClass("active");
-    // $("#presentations-link").removeClass("active");
-    // $("#cv-link").removeClass("active");
-    // $("#home-link").addClass("active");
+    $("#portfolio-link").removeClass("active");
+    $("#publications-link").removeClass("active");
+    $("#presentations-link").removeClass("active");
+    $("#cv-link").removeClass("active");
+    $("#home-link").removeClass("active");
 
     $scope.contactForm = {
         firstName: 'Bob',

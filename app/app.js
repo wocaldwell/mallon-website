@@ -1,8 +1,7 @@
 "use strict";
 
 // defining app (remember to assign '"app": true' in your Gruntfile.js in grunt.initConfig under 'Globals"')
-let app = angular.module("MelissaMallon", ["ngRoute"])
-  .constant('contactFormURL', "http://localhost:8000");
+let app = angular.module("MelissaMallon", ["ngRoute"]);
 
 app.config(function($routeProvider, $sceDelegateProvider) {
     // displaying different routing available with which partial and controller assigned to them

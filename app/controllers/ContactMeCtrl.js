@@ -1,6 +1,8 @@
 "use strict";
 
-app.controller("ContactMeCtrl", function($scope, $window, $location, $http, contactFormURL){
+app.controller("ContactMeCtrl", function($scope, $window, $location, $http){
+
+    const contactFormURL =  "http://localhost:8000";
 
     $("#portfolio-link").removeClass("active");
     $("#publications-link").removeClass("active");
@@ -9,11 +11,11 @@ app.controller("ContactMeCtrl", function($scope, $window, $location, $http, cont
     $("#home-link").removeClass("active");
 
     $scope.contactForm = {
-        firstName: 'Bob',
-        lastName: 'Oblaw',
-        sender: 'me@me.com',
-        subject: 'Hello',
-        message: 'Nice try, dude!'
+        firstName: '',
+        lastName: '',
+        sender: '',
+        subject: '',
+        message: ''
     };
 
     $(document).ready(function(){
@@ -21,8 +23,6 @@ app.controller("ContactMeCtrl", function($scope, $window, $location, $http, cont
     });
 
     $scope.sendFormToServer = function() {
-        console.log("hi");
-        $window.location.href = "#!/confirmation";
         return $http({
             url: `${contactFormURL}/email/`,
             method: "POST",
@@ -34,6 +34,10 @@ app.controller("ContactMeCtrl", function($scope, $window, $location, $http, cont
                 "subject": $scope.contactForm.subject,
                 "message": $scope.contactForm.message
             }
+        }).then(function successCallback(response) {
+            $window.location.href = "#!/confirmation";
+        }, function errorCallback(response){
+            console.log("somethings gone wrong");
         });
     };
 });

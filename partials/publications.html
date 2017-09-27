@@ -31,7 +31,7 @@
         <div class="container">
             <ul class="collection">
                 <li class="collection-item avatar" ng-repeat="publication in pubsList">
-                    <span class="new badge red lighten-3" ng-if="$index === 0"></span>
+                    <span class="new badge red lighten-3" ng-if="publication.year === '2017'"></span>
                     <img class="circle" ng-if="publication.imageUrl == ''" src="{{defaultBookImagePath}}">
                     <img class="circle" ng-if="publication.imageUrl != ''" src="{{publication.imageUrl}}">
                     <span class="title"><a href="{{publication.url}}" target="_blank">{{publication.title}}</a></span>

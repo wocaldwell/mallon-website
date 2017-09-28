@@ -1,6 +1,6 @@
 "use strict";
 
-app.controller("ContactMeCtrl", function($scope, $window, $location, $http){
+app.controller("ContactMeCtrl", function($scope, $window, $location, $http, ConfirmationFactory){
 
     const contactFormURL =  "http://localhost:8000";
 
@@ -11,11 +11,11 @@ app.controller("ContactMeCtrl", function($scope, $window, $location, $http){
     $("#home-link").removeClass("active");
 
     $scope.contactForm = {
-        firstName: '',
-        lastName: '',
-        sender: '',
-        subject: '',
-        message: ''
+        firstName: 'ax',
+        lastName: 'zzzz',
+        sender: 'me@internet.com',
+        subject: 'test',
+        message: 'it'
     };
 
     $(document).ready(function(){
@@ -35,9 +35,13 @@ app.controller("ContactMeCtrl", function($scope, $window, $location, $http){
                 "message": $scope.contactForm.message
             }
         }).then(function successCallback(response) {
-            $window.location.href = "#!/confirmation";
+            let successMessage = "Thanks for your submission!";
+            ConfirmationFactory.setConfirmationMessage(successMessage);
         }, function errorCallback(response){
-            console.log("somethings gone wrong");
+            let errorMessage = "There was an error submitting your form. Please try again at a later time.";
+            ConfirmationFactory.setConfirmationMessage(errorMessage);
+        }).then(function() {
+            $window.location.href = "#!/confirmation";
         });
     };
 });

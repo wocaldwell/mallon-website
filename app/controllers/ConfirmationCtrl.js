@@ -1,6 +1,6 @@
 "use strict";
 
-app.controller("ConfirmationCtrl", function($scope){
+app.controller("ConfirmationCtrl", function($scope, ConfirmationFactory){
 
     $("#portfolio-link").removeClass("active");
     $("#publications-link").removeClass("active");
@@ -11,5 +11,7 @@ app.controller("ConfirmationCtrl", function($scope){
     $(document).ready(function(){
         $('.parallax').parallax();
     });
+
+    $scope.confirmationMessage = ConfirmationFactory.getConfirmationMessage();
 
 });
